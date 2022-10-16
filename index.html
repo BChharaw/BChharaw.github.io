@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html onclick="getCookieValue('2021-12-22')">
+	<head>
+		<title id="title">Today my goal is:</title>
+		<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+		<script src="script.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+	</head>
+
+	<body onload="document.formForGoal.goal.focus(); displayMyGoalForToday();myPreviousGoals();">
+		<div>
+			<h1 id="myGoalForTodayH1">Today my goal is to</h1>
+			<p id="paragraph"></p>
+			<form onSubmit="setACookieForMyGoal()" name="formForGoal">
+				<textarea id="myGoal" type="text" name="goal" placeholder="Create/change your goal by typing here." rows="2"></textarea>
+				<input type="submit" class="submit">
+			<form>
+			<h2>Here are your previous daily goals:</h2>
+			<h3><ul></ul></h3>
+		<div>
+	<body>
+<html>
