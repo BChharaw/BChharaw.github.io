@@ -12,7 +12,7 @@ const CarDetection = () => {
         <div className="max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8">
             <p className="text-4xl inline border-b-4 border-[#e71d36] text-left">
-              Real Time Vehicle Tracking System
+              Real-Time Vehicle Tracking System
             </p>
           </div>
           <div></div>
