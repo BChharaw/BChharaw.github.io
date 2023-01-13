@@ -81,7 +81,7 @@ const Navbar = () => {
         </li>
         <li className="hover:text-[#2ec4b6] text-4xl p-[15px]"><Link to="/projects" onClick={handleClick} >Projects</Link></li>
         <li className="hover:text-[#e71d36] text-4xl p-[15px] pb-[50px]">
-        <a href="https://drive.google.com/file/d/1y9x5pBRT5pfqdonOAjonpPgLQDFKW5cs/view?usp=sharing" onClick={handleClick} >Resume</a>
+        <a href="https://drive.google.com/file/d/1y9x5pBRT5pfqdonOAjonpPgLQDFKW5cs/view?usp=sharing"  target="_blank" onClick={handleClick} >Resume</a>
         </li>
         <div className="flex">
           <li>
