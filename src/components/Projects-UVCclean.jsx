@@ -5,7 +5,7 @@ const ProjectsUVCclean = () => {
   return (
     <div
     name="autonomous water disinfection"
-    className="w-full sm:h-screen bg-[#011627] pt-[80px] text-[#fdfffc]"
+    className="w-full bg-[#011627] pt-[80px] text-[#fdfffc]"
   >
     <div className="flex flex-col justify-center items-center w-full">
       <div className="max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8">
