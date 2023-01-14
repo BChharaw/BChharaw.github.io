@@ -44,7 +44,7 @@ const ProjectsEstimator = () => {
               worse. This is mainly due to there being extreme outliers in the
               dataset (ie. two cars of very similar make a model could sell for
               $300 or $8000 respectively due to one being esentially scrap metal
-              and undrivable where as the other was in excellent condition).
+              and undrivable whereas the other was in excellent condition).
               <br></br>
               <a className="p-[15px]" target="_blank" href="https://github.com/BChharaw/CarValueEstimator">
               <button className="p-[10px] text-[#fdfffc] hover:bg-[#D45550] border-[1px] px-4 py-1 flex items-center rounded-full ">
