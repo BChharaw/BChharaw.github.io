@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <div className="bg-[#011627] w-full">
       <div className="grid grid-cols-1 gap-[30px] sm:grid-cols-2 lg:grid-cols-3 p-[30px] pt-[70px]">
-        <Link to="/projects/carvalueestimator"><div className="p-4 rounded-lg text-[#fdfffc] hover:underline ">
+        <Link to="/projects/carvalueestimator"><div className="p-4 rounded-lg text-[#fdfffc] hover:text-[#D45550] hover:underline ">
           <h1 className="font-bold  text-xl">
             Car Value Estimator{" "}
           </h1>
@@ -21,7 +21,7 @@ const Projects = () => {
           />
         </div>
         </Link>
-        <Link to="/projects/2axisgantry"><div className="p-4 rounded-lg text-[#fdfffc] hover:underline ">
+        <Link to="/projects/2axisgantry"><div className="p-4 rounded-lg text-[#fdfffc] hover:text-[#D45550] hover:underline ">
           <h1 className="font-bold text-xl">
             High Precision 2-Axis Gantry{" "}
           </h1>
@@ -34,11 +34,11 @@ const Projects = () => {
         </div>
         </Link>
         <Link to="/projects/cardetection">
-          <div className="p-4 rounded-lg text-[#fdfffc] hover:underline ">
+          <div className="p-4 rounded-lg text-[#fdfffc] hover:underline hover:text-[#D45550] ">
             <h1 className="font-bold text-xl">
               Car Detection Algorithm{" "}
             </h1>
-            <p>(Machine Vision in C++)</p>
+            <p className="pb-[5px]">(Machine Vision in C++)</p>
             <img
               className="w-screen rounded-lg pt-5px"
               src={Car}
@@ -48,7 +48,7 @@ const Projects = () => {
         </Link>
 
         <Link to="/projects/uvcclean">
-          <div className="p-4 rounded-lg text-[#fdfffc] hover:underline ">
+          <div className="p-4 rounded-lg text-[#fdfffc] hover:text-[#D45550] hover:underline ">
             <h1 className="font-bold  text-xl">
               Autnomous Water Disinfection System{" "}
             </h1>
@@ -63,7 +63,7 @@ const Projects = () => {
           </div>
         </Link>
         <Link to="/projects/goalfortheday">
-          <div className="p-4 rounded-lg text-[#fdfffc] hover:underline ">
+          <div className="p-4 rounded-lg text-[#fdfffc] hover:text-[#D45550] hover:underline ">
             <h1 className="font-bold  text-xl">
               Goal for the Day{" "}
             </h1>

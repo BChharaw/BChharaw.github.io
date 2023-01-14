@@ -19,15 +19,15 @@ const Navbar = () => {
       {/*main navigation*/}
 
       <ul className="md:flex hidden text-[#fdfffc]">
-        <li className="hover:text-[#7697A3]">
+        <li className="hover:text-[#D45550]">
         <Link to="/" >Home</Link>
         </li>
-        <li className="hover:text-[#7697A3]"><Link to="/about" >About</Link></li>
-        <li className="hover:text-[#7697A3]"><Link to="/projects" >Projects</Link></li>
-        <li className="hover:text-[#7697A3]"><a href="https://drive.google.com/file/d/1y9x5pBRT5pfqdonOAjonpPgLQDFKW5cs/view?usp=sharing" target="_blank">Resume</a></li>
+        <li className="hover:text-[#D45550]"><Link to="/about" >About</Link></li>
+        <li className="hover:text-[#D45550]"><Link to="/projects" >Projects</Link></li>
+        <li className="hover:text-[#D45550]"><a href="https://drive.google.com/file/d/1y9x5pBRT5pfqdonOAjonpPgLQDFKW5cs/view?usp=sharing" target="_blank">Resume</a></li>
         <li>
           <a
-            className="hover:text-[#7697A3] flex justify-between items-center w-full"
+            className="hover:text-[#D45550] flex justify-between items-center w-full"
             href="https://www.linkedin.com/in/bchharawala/"
             target="_blank"
             rel="noopener noreferrer"
@@ -38,7 +38,7 @@ const Navbar = () => {
         </li>
         <li>
           <a
-            className="hover:text-[#7697A3] flex justify-between items-center w-full"
+            className="hover:text-[#D45550] flex justify-between items-center w-full"
             href="mailto:brendanchharawala@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
@@ -49,7 +49,7 @@ const Navbar = () => {
         </li>
         <li>
           <a
-            className="hover:text-[#7697A3] flex justify-between items-center w-full"
+            className="hover:text-[#D45550] flex justify-between items-center w-full"
             href="https://github.com/BChharaw/"
             target="_blank"
             rel="noopener noreferrer"
@@ -73,20 +73,20 @@ const Navbar = () => {
         }
       >
         <div></div>
-        <li className="hover:text-[#7697A3] text-4xl p-[15px]">
+        <li className="hover:text-[#D45550] text-4xl p-[15px]">
           <Link to="/" onClick={handleClick} >Home</Link>
         </li>
-        <li className="hover:text-[#7697A3] text-4xl p-[15px]">
+        <li className="hover:text-[#D45550] text-4xl p-[15px]">
         <Link to="/about" onClick={handleClick} >About</Link>
         </li>
-        <li className="hover:text-[#7697A3] text-4xl p-[15px]"><Link to="/projects" onClick={handleClick} >Projects</Link></li>
-        <li className="hover:text-[#7697A3] text-4xl p-[15px] pb-[50px]">
+        <li className="hover:text-[#D45550] text-4xl p-[15px]"><Link to="/projects" onClick={handleClick} >Projects</Link></li>
+        <li className="hover:text-[#D45550] text-4xl p-[15px] pb-[50px]">
         <a href="https://drive.google.com/file/d/1y9x5pBRT5pfqdonOAjonpPgLQDFKW5cs/view?usp=sharing"  target="_blank" onClick={handleClick} >Resume</a>
         </li>
         <div className="flex">
           <li>
             <a
-              className="hover:text-[#7697A3] flex justify-between items-center w-full"
+              className="hover:text-[#D45550] flex justify-between items-center w-full"
               href="https://www.linkedin.com/in/bchharawala/"
               target="_blank"
               rel="noopener noreferrer"
@@ -97,7 +97,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              className="hover:text-[#7697A3] flex justify-between items-center w-full"
+              className="hover:text-[#D45550] flex justify-between items-center w-full"
               href="mailto:brendanchharawala@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -108,7 +108,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              className="hover:text-[#7697A3] flex justify-between items-center w-full"
+              className="hover:text-[#D45550] flex justify-between items-center w-full"
               href="https://github.com/BChharaw"
               target="_blank"
               rel="noopener noreferrer"

@@ -10,7 +10,7 @@ const ProjectsGoal = () => {
     <div className="flex flex-col justify-center items-center w-full">
       <div className="max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8">
         <div className="sm:text-right pb-8">
-          <p className="text-4xl inline border-b-4 border-[#7697A3] text-left">
+          <p className="text-4xl inline border-b-4 border-[#D45550] text-left">
             Today My Goal Is...
           </p>
         </div>
@@ -36,7 +36,7 @@ const ProjectsGoal = () => {
             a list. You can edit the day's goal by typing something new. <br></br><br></br>Nothing more, nothing less, simplistic as it should be! 😎{" "}
           </p>
           <div className="p-[10px]">
-      <a href="https://mygoalfortoday.brenc.repl.co/" target="_blank"><button className="text-[#fdfffc] hover:bg-[#7697A3] border-[1px] px-4 py-1 flex items-center rounded-full ">
+      <a href="https://mygoalfortoday.brenc.repl.co/" target="_blank"><button className="text-[#fdfffc] hover:bg-[#D45550] border-[1px] px-4 py-1 flex items-center rounded-full ">
             Give it a demo! 
             <HiArrowNarrowRight />
           </button></a></div>

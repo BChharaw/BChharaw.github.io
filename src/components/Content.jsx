@@ -14,7 +14,7 @@ const Content = () => {
         <h1 className="text-3xl sm:text-7xl font-bold text-[#fdfffc]">
           Brendan Chharawala
         </h1>
-        <h2 className="text-xl sm:text-3xl font-bold text-[#7697A3]">
+        <h2 className="text-xl sm:text-3xl font-bold text-[#D45550]">
           <div className="h-20 z-10">
             <Typewriter
               options={{
@@ -38,7 +38,7 @@ const Content = () => {
         </p>
         <div className="py-4">
           <Link to="/projects">
-            <button className="text-[#fdfffc] hover:bg-[#7697A3] border-[1px] px-4 py-1 flex items-center rounded-full ">
+            <button className="text-[#fdfffc] hover:bg-[#D45550] border-[1px] px-4 py-1 flex items-center rounded-full ">
               My projects 
               <HiArrowNarrowRight />
             </button>
