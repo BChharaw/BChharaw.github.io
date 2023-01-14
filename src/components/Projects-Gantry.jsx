@@ -29,13 +29,12 @@ const ProjectsGantry = () => {
                   <video className="w-full p-[5px] rounded-2xl" controls>
                     <source src={gantrymotion} type="video/mp4" />
                   </video>
-                  <a className="p-[5px]" href="https://github.com/BChharaw/HighPrecisionGantry">
-              <button className="text-[#fdfffc] hover:bg-[#D45550] border-[1px] px-4 py-1 flex items-center rounded-full ">
+                  <a className="p-[15px]" href="https://github.com/BChharaw/HighPrecisionGantry">
+              <button className="p-[10px] text-[#fdfffc] hover:bg-[#D45550] border-[1px] px-4 py-1 flex items-center rounded-full ">
               View the code on Github 
               <HiArrowNarrowRight />
             </button>
-            </a>
-                  This is what the final version of our prototype looked liked, with the sensor array being shown to the left and right of the EV3 brick.
+            </a><br></br>This is what the final version of our prototype looked liked, with the sensor array being shown to the left and right of the EV3 brick.
 
                   <img
               className="w-full p-[5px] rounded-2xl"

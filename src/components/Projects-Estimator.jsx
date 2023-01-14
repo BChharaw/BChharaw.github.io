@@ -34,7 +34,7 @@ const ProjectsEstimator = () => {
               </a>
               .<br></br>
               <img
-              className="w-full p-[5px] rounded-2xl"
+              className="w-full p-[5px] pb-[5px] rounded-2xl"
               src={estimator}
               alt="image of my today my goal is website"
             ></img>
@@ -56,9 +56,9 @@ const ProjectsEstimator = () => {
               complex machine learning projects such as a convolutional neural
               network that extrapolates edges to an landscape image which don't
               exist the original image. (Coming soon!) 🌆{" "}
-
-              <a className="p-[5px]" href="https://github.com/BChharaw/CarValueEstimator">
-              <button className="text-[#fdfffc] hover:bg-[#D45550] border-[1px] px-4 py-1 flex items-center rounded-full ">
+<br></br>
+              <a className="p-[15px]" href="https://github.com/BChharaw/CarValueEstimator">
+              <button className="p-[10px] text-[#fdfffc] hover:bg-[#D45550] border-[1px] px-4 py-1 flex items-center rounded-full ">
               View the code on Github 
               <HiArrowNarrowRight />
             </button>

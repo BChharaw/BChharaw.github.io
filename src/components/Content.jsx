@@ -38,7 +38,7 @@ const Content = () => {
         </p>
         <div className="py-4">
           <Link to="/projects">
-            <button className="text-[#fdfffc] hover:bg-[#D45550] border-[1px] px-4 py-1 flex items-center rounded-full ">
+            <button className="p-[10px] text-[#fdfffc] hover:bg-[#D45550] border-[1px] px-4 py-1 flex items-center rounded-full ">
               My projects 
               <HiArrowNarrowRight />
             </button>

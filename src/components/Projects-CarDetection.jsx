@@ -32,24 +32,28 @@ const CarDetection = () => {
               we used depth data and a processed binary representation of the
               live feed to isolate model cars on a conveyor belt as a proof of
               convept to our final solution. <br></br>
+              <video className="w-full p-[5px] rounded-2xl" controls>
+                <source src={cardetectioncode} type="video/mp4" />
+              </video>
+              
+              <br></br> The final program could intelligently filter out
+              irrelevant information in the frame (ie. someones hand waving
+              around) and track the model cars bumper to a precision of +/- 1mm
+              (the maximum resolution of our camera)! 🚗 
+             
+              <a className="p-[15px]" href="https://github.com/BChharaw/CarTrackingMachineVisionAlgorithm">
+              <button className="p-[10px] text-[#fdfffc] hover:bg-[#D45550] border-[1px] px-4 py-1 flex items-center rounded-full ">
+              View the code on Github 
+              <HiArrowNarrowRight />
+            </button>
+            </a>
+              <br></br>
               <img
               className="w-full p-[5px] rounded-2xl"
               src={conveyor}
               alt="conveyor setup used"
             ></img>
-              <br></br> The final program could intelligently filter out
-              irrelevant information in the frame (ie. someones hand waving
-              around) and track the model cars bumper to a precision of +/- 1mm
-              (the maximum resolution of our camera)! 🚗 <br></br>
-              <video className="w-full p-[5px] rounded-2xl" controls>
-                <source src={cardetectioncode} type="video/mp4" />
-              </video>
-              <a className="p-[5px]" href="https://github.com/BChharaw/CarTrackingMachineVisionAlgorithm">
-              <button className="text-[#fdfffc] hover:bg-[#D45550] border-[1px] px-4 py-1 flex items-center rounded-full ">
-              View the code on Github 
-              <HiArrowNarrowRight />
-            </button>
-            </a>
+              
             </p>
           </div>
         </div>

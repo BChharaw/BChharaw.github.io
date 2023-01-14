@@ -30,12 +30,12 @@ const ProjectsUVCclean = () => {
 {" "}
           </p>
           <div className="p-[10px]">
-      <a href="https://theuvcc.brenc.repl.co/" target="_blank"><button className="text-[#fdfffc] hover:bg-[#D45550] border-[1px] px-4 py-1 flex items-center rounded-full ">
+      <a href="https://theuvcc.brenc.repl.co/" target="_blank"><button className="p-[10px] text-[#fdfffc] hover:bg-[#D45550] border-[1px] px-4 py-1 flex items-center rounded-full ">
             Take a peek! 
             <HiArrowNarrowRight />
           </button></a>
-          <a className="p-[5px]" href="https://github.com/BChharaw/AutonomousWaterDisinfection">
-              <button className="text-[#fdfffc] hover:bg-[#D45550] border-[1px] px-4 py-1 flex items-center rounded-full ">
+          <a className="p-[15px]" href="https://github.com/BChharaw/AutonomousWaterDisinfection">
+              <button className="p-[10px] text-[#fdfffc] hover:bg-[#D45550] border-[1px] px-4 py-1 flex items-center rounded-full ">
               View the code on Github 
               <HiArrowNarrowRight />
             </button>

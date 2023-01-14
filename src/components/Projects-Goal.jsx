@@ -35,13 +35,13 @@ const ProjectsGoal = () => {
             day and will display previous goals which you made in the past as
             a list. You can edit the day's goal by typing something new. <br></br><br></br>Nothing more, nothing less, simplistic as it should be! 😎{" "}
           </p>
-          <div className="p-[5px]">
-      <a href="https://mygoalfortoday.brenc.repl.co/" target="_blank"><button className="text-[#fdfffc] hover:bg-[#D45550] border-[1px] px-4 py-1 flex items-center rounded-full ">
+      <a href="https://mygoalfortoday.brenc.repl.co/" target="_blank"><button className="p-[10px] text-[#fdfffc] hover:bg-[#D45550] border-[1px] px-4 py-1 flex items-center rounded-full ">
             Give it a demo! 
             <HiArrowNarrowRight />
-          </button></a></div>
-          <a className="p-[5px]" href="https://github.com/BChharaw/GoalTracker">
-              <button className="text-[#fdfffc] hover:bg-[#D45550] border-[1px] px-4 py-1 flex items-center rounded-full ">
+          </button></a>
+          <div className="p-[5px]"></div>
+          <a href="https://github.com/BChharaw/GoalTracker">
+              <button className="p-[10px] text-[#fdfffc] hover:bg-[#D45550] border-[1px] px-4 py-1 flex items-center rounded-full ">
               View the code on Github 
               <HiArrowNarrowRight />
             </button>
