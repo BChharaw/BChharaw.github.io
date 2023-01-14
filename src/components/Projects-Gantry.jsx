@@ -29,12 +29,13 @@ const ProjectsGantry = () => {
                   <video className="w-full p-[5px] rounded-2xl" controls>
                     <source src={gantrymotion} type="video/mp4" />
                   </video>
+                  This is what the final version of our prototype looked liked, with the sensor array being shown to the left and right of the EV3 brick.
+
                   <img
               className="w-full p-[5px] rounded-2xl"
               src={gantry}
               alt="conveyor setup used"
             ></img>
-            This is what the final version of our prototype looked liked, with the sensor array being shown to the left and right of the EV3 brick.
                 </p>
               </div>
             </div>
