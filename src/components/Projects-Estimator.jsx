@@ -40,7 +40,7 @@ const ProjectsEstimator = () => {
             ></img>
               <br></br> Data for this model was cleaned using Google Sheets and
               overall this project was fun in the making even though the
-              accuracy was horrible and when I tried to optimize for loss it got
+              accuracy wasn't as high as I would've liked and when I tried to optimize for loss it got
               worse. This is mainly due to there being extreme outliers in the
               dataset (ie. two cars of very similar make a model could sell for
               $300 or $8000 respectively due to one being esentially scrap metal
