@@ -11,7 +11,7 @@ const ProjectsEstimator = () => {
       <div className="flex flex-col justify-center items-center w-full">
         <div className="max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8">
-            <p className="text-4xl inline border-b-4 border-[#e71d36] text-left">
+            <p className="text-4xl inline border-b-4 border-[#7697A3] text-left">
               Car Value Estimator
             </p>
           </div>
