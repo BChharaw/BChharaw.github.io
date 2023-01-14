@@ -1,12 +1,12 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import gantrymotion from "../assets/gantrymotion.mp4";
-
+import gantry from "../assets/frontgantry.jpg";
 const ProjectsGantry = () => {
     return (
         <div
           name="high precision gantry"
-          className="w-full sm:h-screen bg-[#011627] pt-[80px] text-[#fdfffc]"
+          className="w-full bg-[#011627] pt-[80px] text-[#fdfffc]"
         >
           <div className="flex flex-col justify-center items-center w-full">
             <div className="max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8">
@@ -29,6 +29,11 @@ const ProjectsGantry = () => {
                   <video className="w-full p-[5px] rounded-2xl" controls>
                     <source src={gantrymotion} type="video/mp4" />
                   </video>
+                  <img
+              className="w-full p-[5px] rounded-2xl"
+              src={gantry}
+              alt="conveyor setup used"
+            ></img>
                 </p>
               </div>
             </div>

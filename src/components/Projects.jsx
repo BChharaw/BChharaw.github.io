@@ -1,5 +1,5 @@
 import React from "react";
-import MyGoal from "../assets/today-my-goal.png";
+import MyGoal from "../assets/mygoalisimg.png";
 import UVCC from "../assets/outer-prototype.jpg";
 import Car from "../assets/car-tracking.gif";
 import Gantry from "../assets/keyboard-typer.gif";
@@ -7,13 +7,13 @@ import TFLRestimator from "../assets/CarEstimatorModel.png";
 import { Link } from "react-router-dom";
 const Projects = () => {
   return (
-    <div className="bg-[#011627] w-full">
+    <div className="bg-[#011627] w-full h-full">
       <div className="grid grid-cols-1 gap-[30px] sm:grid-cols-2 lg:grid-cols-3 p-[30px] pt-[70px]">
         <Link to="/projects/carvalueestimator"><div className="p-4 rounded-lg text-[#fdfffc] hover:text-[#D45550] hover:underline ">
           <h1 className="font-bold  text-xl">
             Car Value Estimator{" "}
           </h1>
-          <p>(TensorFlow in Python)</p>
+          <p className="pb-[5px]">(TensorFlow in Python)</p>
           <img
             className="w-screen rounded-lg pt-5px"
             src={TFLRestimator}
@@ -25,7 +25,7 @@ const Projects = () => {
           <h1 className="font-bold text-xl">
             High Precision 2-Axis Gantry{" "}
           </h1>
-          <p>(C with RobotC library)</p>
+          <p className="pb-[5px]">(C with RobotC library)</p>
           <img
             className="w-screen rounded-lg pt-5px"
             src={Gantry}
@@ -52,7 +52,7 @@ const Projects = () => {
             <h1 className="font-bold  text-xl">
               Autnomous Water Disinfection System{" "}
             </h1>
-            <p>
+            <p className="pb-[5px]">
               (JavaScript, HTML/CSS, BootStrap, and C++)
             </p>
             <img
@@ -65,9 +65,9 @@ const Projects = () => {
         <Link to="/projects/goalfortheday">
           <div className="p-4 rounded-lg text-[#fdfffc] hover:text-[#D45550] hover:underline ">
             <h1 className="font-bold  text-xl">
-              Goal for the Day{" "}
+              Goal Tracker{" "}
             </h1>
-            <p>(JavaScript, and HTML/CSS)</p>
+            <p className="pb-[5px]">(JavaScript, and HTML/CSS)</p>
             <img
               className="w-screen rounded-lg pt-5px "
               src={MyGoal}

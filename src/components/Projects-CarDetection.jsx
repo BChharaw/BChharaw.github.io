@@ -1,7 +1,7 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import cardetectioncode from "../assets/toyotainnovation.mp4";
-
+import conveyor from "../assets/conveyorsetup.jpg";
 const CarDetection = () => {
   return (
     <div
@@ -32,6 +32,11 @@ const CarDetection = () => {
               we used depth data and a processed binary representation of the
               live feed to isolate model cars on a conveyor belt as a proof of
               convept to our final solution. <br></br>
+              <img
+              className="w-full p-[5px] rounded-2xl"
+              src={conveyor}
+              alt="conveyor setup used"
+            ></img>
               <br></br> The final program could intelligently filter out
               irrelevant information in the frame (ie. someones hand waving
               around) and track the model cars bumper to a precision of +/- 1mm
@@ -39,6 +44,7 @@ const CarDetection = () => {
               <video className="w-full p-[5px] rounded-2xl" controls>
                 <source src={cardetectioncode} type="video/mp4" />
               </video>
+              
             </p>
           </div>
         </div>

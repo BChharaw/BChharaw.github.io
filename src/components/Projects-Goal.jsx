@@ -1,11 +1,11 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import MYGOAL from "../assets/mygoalisimg.png";
+import MYGOAL from "../assets/goals-as-list.png";
 const ProjectsGoal = () => {
   return (
     <div
     name="Project about a simple website with cookies"
-    className="w-full sm:h-screen bg-[#011627] pt-[80px] text-[#fdfffc]"
+    className="w-full bg-[#011627] pt-[80px] text-[#fdfffc]"
   >
     <div className="flex flex-col justify-center items-center w-full">
       <div className="max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8">

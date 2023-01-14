@@ -1,6 +1,8 @@
 import React from 'react'
 import uvcc from "../assets/in-tank.jpg";
 import { HiArrowNarrowRight } from "react-icons/hi";
+import withwater from "../assets/flowing-water.jpg";
+import uvlight from '../assets/uv-light-on.jpg';
 const ProjectsUVCclean = () => {
   return (
     <div
@@ -33,6 +35,8 @@ const ProjectsUVCclean = () => {
             <HiArrowNarrowRight />
           </button></a></div>
           <img className = "w-full p-[5px] rounded-2xl" src={uvcc} alt="image of my today my goal is website"></img>
+          <img className = "w-full p-[5px] rounded-2xl" src={withwater} alt="image of my today my goal is website"></img>
+          <img className = "w-full p-[5px] rounded-2xl" src={uvlight} alt="image of my today my goal is website"></img>
 
         </div>
       </div>
