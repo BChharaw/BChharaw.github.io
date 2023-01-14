@@ -46,6 +46,12 @@ const ProjectsEstimator = () => {
               $300 or $8000 respectively due to one being esentially scrap metal
               and undrivable where as the other was in excellent condition).
               <br></br>
+              <a className="p-[15px]" target="_blank" href="https://github.com/BChharaw/CarValueEstimator">
+              <button className="p-[10px] text-[#fdfffc] hover:bg-[#D45550] border-[1px] px-4 py-1 flex items-center rounded-full ">
+              View the code on Github 
+              <HiArrowNarrowRight />
+            </button>
+            </a>
               <img
               className="w-full p-[5px] rounded-2xl"
               src={specs}
@@ -57,12 +63,7 @@ const ProjectsEstimator = () => {
               network that extrapolates edges to an landscape image which don't
               exist the original image. (Coming soon!) 🌆{" "}
 <br></br>
-              <a className="p-[15px]" href="https://github.com/BChharaw/CarValueEstimator">
-              <button className="p-[10px] text-[#fdfffc] hover:bg-[#D45550] border-[1px] px-4 py-1 flex items-center rounded-full ">
-              View the code on Github 
-              <HiArrowNarrowRight />
-            </button>
-            </a>
+             
             </p>
             <div className="p-[10px]">
    

@@ -40,7 +40,7 @@ const ProjectsGoal = () => {
             <HiArrowNarrowRight />
           </button></a>
           <div className="p-[5px]"></div>
-          <a href="https://github.com/BChharaw/GoalTracker">
+          <a  target="_blank" href="https://github.com/BChharaw/GoalTracker">
               <button className="p-[10px] text-[#fdfffc] hover:bg-[#D45550] border-[1px] px-4 py-1 flex items-center rounded-full ">
               View the code on Github 
               <HiArrowNarrowRight />

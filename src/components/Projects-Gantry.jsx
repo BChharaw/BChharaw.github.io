@@ -29,7 +29,7 @@ const ProjectsGantry = () => {
                   <video className="w-full p-[5px] rounded-2xl" controls>
                     <source src={gantrymotion} type="video/mp4" />
                   </video>
-                  <a className="p-[15px]" href="https://github.com/BChharaw/HighPrecisionGantry">
+                  <a className="p-[15px]"  target="_blank" href="https://github.com/BChharaw/HighPrecisionGantry">
               <button className="p-[10px] text-[#fdfffc] hover:bg-[#D45550] border-[1px] px-4 py-1 flex items-center rounded-full ">
               View the code on Github 
               <HiArrowNarrowRight />

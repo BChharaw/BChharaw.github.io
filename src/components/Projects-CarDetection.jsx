@@ -42,7 +42,7 @@ const CarDetection = () => {
               (the maximum resolution of our camera)! 🚗 
              
             </p>
-              <a className="p-[15px]" href="https://github.com/BChharaw/CarTrackingMachineVisionAlgorithm">
+              <a className="p-[15px]" target="_blank" href="https://github.com/BChharaw/CarTrackingMachineVisionAlgorithm">
               <button className="p-[10px] text-[#fdfffc] hover:bg-[#D45550] border-[1px] px-4 py-1 flex items-center rounded-full ">
               View the code on Github 
               <HiArrowNarrowRight />
