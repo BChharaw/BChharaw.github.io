@@ -34,6 +34,7 @@ const ProjectsGantry = () => {
               src={gantry}
               alt="conveyor setup used"
             ></img>
+            This is what the final version of our prototype looked liked, with the sensor array being shown to the left and right of the EV3 brick.
                 </p>
               </div>
             </div>
