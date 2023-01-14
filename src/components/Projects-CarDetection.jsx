@@ -44,7 +44,12 @@ const CarDetection = () => {
               <video className="w-full p-[5px] rounded-2xl" controls>
                 <source src={cardetectioncode} type="video/mp4" />
               </video>
-              
+              <a className="p-[5px]" href="https://github.com/BChharaw/CarTrackingMachineVisionAlgorithm">
+              <button className="text-[#fdfffc] hover:bg-[#D45550] border-[1px] px-4 py-1 flex items-center rounded-full ">
+              View the code on Github 
+              <HiArrowNarrowRight />
+            </button>
+            </a>
             </p>
           </div>
         </div>

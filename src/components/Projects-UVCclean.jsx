@@ -33,7 +33,14 @@ const ProjectsUVCclean = () => {
       <a href="https://theuvcc.brenc.repl.co/" target="_blank"><button className="text-[#fdfffc] hover:bg-[#D45550] border-[1px] px-4 py-1 flex items-center rounded-full ">
             Take a peek! 
             <HiArrowNarrowRight />
-          </button></a></div>
+          </button></a>
+          <a className="p-[5px]" href="https://github.com/BChharaw/AutonomousWaterDisinfection">
+              <button className="text-[#fdfffc] hover:bg-[#D45550] border-[1px] px-4 py-1 flex items-center rounded-full ">
+              View the code on Github 
+              <HiArrowNarrowRight />
+            </button>
+            </a>
+          </div>
           <img className = "w-full p-[5px] rounded-2xl" src={uvcc} alt="image of my today my goal is website"></img>
           <img className = "w-full p-[5px] rounded-2xl" src={withwater} alt="image of my today my goal is website"></img>
           <img className = "w-full p-[5px] rounded-2xl" src={uvlight} alt="image of my today my goal is website"></img>
