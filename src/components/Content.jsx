@@ -7,7 +7,7 @@ const Content = () => {
   return (
     <div
       name="main"
-      className="bg-[url('https://cc246282-1098-4f57-bdc7-4b8c66f018e5.id.repl.co/back1.png')] bg-fixed bg-center bg-no-repeat pt-[80px] w-full h-screen"
+      className="bg-[url('https://cc246282-1098-4f57-bdc7-4b8c66f018e5.id.repl.co/back1.png')] bg-cover bg-fixed bg-center pt-[80px] w-full h-screen"
     >
       <div className="pl-[20px] max-w-[1080] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-xl sm:text-3xl text-[#fdfffc]">Hi 👋 my name is</p>
