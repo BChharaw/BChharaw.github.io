@@ -24,7 +24,7 @@ const Navbar = () => {
         </li>
         <li className="hover:text-[#D45550]"><Link to="/about" >About</Link></li>
         <li className="hover:text-[#D45550]"><Link to="/projects" >Projects</Link></li>
-        <li className="hover:text-[#D45550]"><a href="https://drive.google.com/file/d/1y9x5pBRT5pfqdonOAjonpPgLQDFKW5cs/view?usp=sharing" target="_blank">Resume</a></li>
+        <li className="hover:text-[#D45550]"><a href="https://bit.ly/brendanc-resume" target="_blank">Resume</a></li>
         <li>
           <a
             className="hover:text-[#D45550] flex justify-between items-center w-full"
@@ -81,7 +81,7 @@ const Navbar = () => {
         </li>
         <li className="hover:text-[#D45550] text-4xl p-[15px]"><Link to="/projects" onClick={handleClick} >Projects</Link></li>
         <li className="hover:text-[#D45550] text-4xl p-[15px] pb-[50px]">
-        <a href="https://drive.google.com/file/d/1y9x5pBRT5pfqdonOAjonpPgLQDFKW5cs/view?usp=sharing"  target="_blank" onClick={handleClick} >Resume</a>
+        <a href="https://bit.ly/brendanc-resume"  target="_blank" onClick={handleClick} >Resume</a>
         </li>
         <div className="flex">
           <li>
