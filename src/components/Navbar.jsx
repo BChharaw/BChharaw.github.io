@@ -27,7 +27,7 @@ const Navbar = () => {
         <li>
           <a
             className="hover:text-[#D45550] flex justify-between items-center w-full"
-            href="www.linkedin.com/in/brendancmechatronics"
+            href="https://www.linkedin.com/in/brendancmechatronics"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -85,7 +85,7 @@ const Navbar = () => {
           <li>
             <a
               className="hover:text-[#D45550] flex justify-between items-center w-full"
-              href="www.linkedin.com/in/brendancmechatronics"
+              href="https://www.linkedin.com/in/brendancmechatronics"
               target="_blank"
               rel="noopener noreferrer"
             >
