@@ -24,11 +24,10 @@ const Navbar = () => {
         </li>
         <li className="hover:text-[#D45550]"><Link to="/about" >About</Link></li>
         <li className="hover:text-[#D45550]"><Link to="/projects" >Projects</Link></li>
-        <li className="hover:text-[#D45550]"><a href="https://bit.ly/brendanc-resume" target="_blank">Resume</a></li>
         <li>
           <a
             className="hover:text-[#D45550] flex justify-between items-center w-full"
-            href="https://www.linkedin.com/in/bchharawala/"
+            href="www.linkedin.com/in/brendancmechatronics"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -39,7 +38,7 @@ const Navbar = () => {
         <li>
           <a
             className="hover:text-[#D45550] flex justify-between items-center w-full"
-            href="mailto:brendanchharawala@gmail.com"
+            href="mailto:brendancmechatronics@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -81,7 +80,6 @@ const Navbar = () => {
         </li>
         <li className="hover:text-[#D45550] text-4xl p-[15px]"><Link to="/projects" onClick={handleClick} >Projects</Link></li>
         <li className="hover:text-[#D45550] text-4xl p-[15px] pb-[50px]">
-        <a href="https://bit.ly/brendanc-resume"  target="_blank" onClick={handleClick} >Resume</a>
         </li>
         <div className="flex">
           <li>
@@ -98,7 +96,7 @@ const Navbar = () => {
           <li>
             <a
               className="hover:text-[#D45550] flex justify-between items-center w-full"
-              href="mailto:brendanchharawala@gmail.com"
+              href="mailto:brendancmechatronics@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
             >

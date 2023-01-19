@@ -26,10 +26,10 @@ const About = () => {
               and computer vision, and building autonomous systems! <br></br>{" "}
               <br></br>I may work with robots every day (check out my projects!)
               but I promise I am human. Feel free to send me an email at{" "}
-              <a className="font-bold" href="brendanchharawala@gmail.com">
-                brendanchharawala@gmail.com
+              <a className="font-bold" href="brendancmechatronics@gmail.com
+">brendancmechatronics@gmail.com
               </a>
-              !
+              ! <br></br><br></br>To take a look at my resume, please email me as well.
             </p>
           </div>
         </div>
