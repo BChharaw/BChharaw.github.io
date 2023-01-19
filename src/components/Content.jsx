@@ -12,7 +12,7 @@ const Content = () => {
       <div className="pl-[20px] max-w-[1080] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-xl sm:text-3xl text-[#fdfffc]">Hi 👋 my name is</p>
         <h1 className="text-3xl sm:text-7xl font-bold text-[#fdfffc]">
-          Brendan Chharawala
+          Brendan
         </h1>
         <h2 className="text-xl sm:text-3xl font-bold text-[#D45550]">
           <div className="h-20 z-10">
