@@ -15,7 +15,7 @@ const Navbar = () => {
       <div>
         <Link to="/">
           {" "}
-          <img src={Logo} alt="Logo" style={{ width: "35px" }} />
+          <img src={Logo} alt="Logo " style={{ width: "35px" }} />
         </Link>
       </div>
       {/*main navigation*/}
