@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2b745912.css",
+    "main.js": "/static/js/main.458fe05d.js",
+    "static/media/gantrymotion.mp4": "/static/media/gantrymotion.4cdac12aea2f627438e7.mp4",
+    "static/media/toyotainnovation.mp4": "/static/media/toyotainnovation.5e1fc9993d3a2e81d73e.mp4",
+    "static/media/frontgantry.jpg": "/static/media/frontgantry.c25acb82e8527e2e181f.jpg",
+    "static/media/keyboard-typer.gif": "/static/media/keyboard-typer.8a3ca474abf7360e91a3.gif",
+    "static/media/car-tracking.gif": "/static/media/car-tracking.0749a36206c3bb8e941d.gif",
+    "static/media/conveyorsetup.jpg": "/static/media/conveyorsetup.0904ddc03390527ca599.jpg",
+    "static/media/in-tank.jpg": "/static/media/in-tank.7498c200085f7e9a2ae4.jpg",
+    "static/media/flowing-water.jpg": "/static/media/flowing-water.0aba935bef909c9d0335.jpg",
+    "static/media/outer-prototype.jpg": "/static/media/outer-prototype.d5cb6de17df658e6043b.jpg",
+    "static/media/uv-light-on.jpg": "/static/media/uv-light-on.07e91f26cde66ed2a59c.jpg",
+    "static/media/goals-as-list.png": "/static/media/goals-as-list.38e8e02d38276bd53974.png",
+    "static/media/mygoalisimg.png": "/static/media/mygoalisimg.2e7b397517e8951c6138.png",
+    "static/media/Spec-car-data.png": "/static/media/Spec-car-data.2b693d1f764665643756.png",
+    "static/media/logo2.png": "/static/media/logo2.e7e28f15a7738e217ab9.png",
+    "static/media/CarEstimatorModel.png": "/static/media/CarEstimatorModel.0e71e77533202a25de8e.png",
+    "index.html": "/index.html",
+    "main.2b745912.css.map": "/static/css/main.2b745912.css.map",
+    "main.458fe05d.js.map": "/static/js/main.458fe05d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b745912.css",
+    "static/js/main.458fe05d.js"
+  ]
+}
