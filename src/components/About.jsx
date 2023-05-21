@@ -1,5 +1,5 @@
 import React from "react";
-
+import {FadeIn} from "react-fade-in";
 const About = () => {
   return (
     <div
@@ -17,6 +17,7 @@ const About = () => {
         </div>
         <div className="max-w-[1000px] w-full px-4 grid sm:grid-cols-2 gap-8">
           <div className="text-4xl font-bold sm:text-right">
+            
             <p>Hi I'm Brendan nice to meet you!</p>
           </div>
           <div>
