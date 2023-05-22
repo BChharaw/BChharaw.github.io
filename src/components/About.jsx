@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { HiArrowNarrowRight } from "react-icons/hi";
-
+import gantrybackground from "../assets/gantrybackground.png";
 const About = () => {
   return (
     <div
       className="bg-gray-900 text-white bg-cover bg-fixed bg-center h-screen"
-      style={{ backgroundImage: "url('https://cc246282-1098-4f57-bdc7-4b8c66f018e5.id.repl.co/back2.png')" }}
+      style={{ backgroundImage: "url('/static/media/gantrybackground.e08a45a1a3192102c97c.png')" }}
     >
       <div className="container mx-auto px-6 sm:px-8 flex flex-col justify-center h-full">
         <div className="max-w-3xl mx-auto text-center">

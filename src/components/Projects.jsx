@@ -5,10 +5,12 @@ import Car from "../assets/car-tracking.gif";
 import Gantry from "../assets/keyboard-typer.gif";
 import TFLRestimator from "../assets/CarEstimatorModel.png";
 import { Link } from "react-router-dom";
-
+import mte100background from "../assets/mte100background.png";
 const Projects = () => {
   return (
-    <div className="bg-gray-900 min-h-screen py-16">
+    
+    <div className="bg-gray-900 min-h-screen py-20  bg-cover bg-fixed bg-center" style={{ backgroundImage: "url('/static/media/mte100background.f28e2f8c5901c4760f85.png')" }}>
+      
       <div className="container mx-auto max-w-7xl px-4 grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         <Link to="/projects/carvalueestimator">
           <div className="hover:bg-gray-700 transition duration-300 ease-in-out bg-gray-800 rounded-lg shadow-lg overflow-hidden">
@@ -20,12 +22,7 @@ const Projects = () => {
             <div className="p-4">
               <h1 className="text-xl font-semibold text-white mb-2">Car Value Estimator</h1>
               <p className="text-gray-400 mb-4">(TensorFlow in Python)</p>
-              <Link
-                to="/projects/carvalueestimator"
-                className="text-blue-500 hover:text-blue-600 hover:underline"
-              >
-                Learn More
-              </Link>
+              
             </div>
           </div>
         </Link>
@@ -39,12 +36,7 @@ const Projects = () => {
             <div className="p-4">
               <h1 className="text-xl font-semibold text-white mb-2">High Precision Gantry</h1>
               <p className="text-gray-400 mb-4">(C with RobotC library)</p>
-              <Link
-                to="/projects/2axisgantry"
-                className="text-blue-500 hover:text-blue-600 hover:underline"
-              >
-                Learn More
-              </Link>
+           
             </div>
           </div>
         </Link>
@@ -58,12 +50,7 @@ const Projects = () => {
             <div className="p-4">
               <h1 className="text-xl font-semibold text-white mb-2">Car Detection Algorithm</h1>
               <p className="text-gray-400 mb-4">(Machine Vision in C++)</p>
-              <Link
-                to="/projects/cardetection"
-                className="text-blue-500 hover:text-blue-600 hover:underline"
-              >
-                Learn More
-              </Link>
+           
             </div>
           </div>
         </Link>
@@ -77,12 +64,7 @@ const Projects = () => {
             <div className="p-4">
               <h1 className="text-xl font-semibold text-white mb-2">Water Disinfection System</h1>
               <p className="text-gray-400 mb-4">(JS, HTML/CSS, and C++)</p>
-              <Link
-                to="/projects/uvcclean"
-                className="text-blue-500 hover:text-red-600 hover:underline"
-              >
-                Learn More
-              </Link>
+          
             </div>
           </div>
         </Link>
@@ -96,12 +78,7 @@ const Projects = () => {
             <div className="p-4">
               <h1 className="text-xl font-semibold text-white mb-2">Goal Tracker</h1>
               <p className="text-gray-400 mb-4">(JavaScript and HTML/CSS)</p>
-              <Link
-                to="/projects/goalfortheday"
-                className="text-blue-500 hover:text-blue-600 hover:underline"
-              >
-                Learn More
-              </Link>
+        
             </div>
           </div>
         </Link>

@@ -22,8 +22,9 @@ const Content = () => {
               <Typewriter
                 options={{
                   strings: [
-                    "I'm a UWaterloo robotics engineering student",
-                    "I'm designing a bipedal robot at GoodLabs Studio",
+                    "UWaterloo Mechatronics Engineering student",
+                    "Interested in computer vision and AI",
+                    "Passionate about designing"
                   ],
                   autoStart: true,
                   loop: true,
@@ -33,7 +34,7 @@ const Content = () => {
             </div>
           </h2>
           <p className="text-base sm:text-lg max-w-md mx-auto mt-6">
-            Currently, I'm on co-op at GoodLabs Studio designing Robbie, a natural walking bipedal... check it out!
+            I'm currently working at <a target="_blank" className="text-blue-500 hover:underline " href="https://www.goodlabs.studio/">GoodLabs Studio</a> designing Robbie, a natural walking bipedal (shown in background)!
           </p>
           <div className="mt-8 flex justify-center">
             <Link to="/projects">
