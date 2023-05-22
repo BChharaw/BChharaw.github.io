@@ -1,61 +1,43 @@
-import React from "react";
-import { HiArrowNarrowRight } from "react-icons/hi";
-import cardetectioncode from "../assets/toyotainnovation.mp4";
-import conveyor from "../assets/conveyorsetup.jpg";
+import React from 'react';
+import { HiArrowNarrowRight } from 'react-icons/hi';
+import cardetectioncode from '../assets/toyotainnovation.mp4';
+import conveyor from '../assets/conveyorsetup.jpg';
+
 const CarDetection = () => {
+  window.scrollTo(0, 0);
   return (
-    <div
-      name="tracking cars in real time"
-      className="w-full bg-[#011627] pt-[80px] text-[#fdfffc]"
-    >
-      <div className="flex flex-col justify-center items-center w-full">
-        <div className="max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8">
-          <div className="sm:text-right pb-8">
-            <p className="text-4xl inline border-b-4 border-[#D45550] text-left">
-              Real-Time Vehicle Tracking System
-            </p>
-          </div>
-          <div></div>
-        </div>
-        <div className="max-w-[1000px] w-full px-4 grid sm:grid-cols-2 gap-8">
-          <div className="text-4xl font-bold sm:text-right">
-            <p>Machine Vision In C++</p>
-          </div>
-          <div>
-            <p className="pb-[5px]">
-              As a part of the Toyota Innovation Challenge Hackathon, three
-              friends and I developed a real time vehicle tracking system to
-              track cars on a conveyor belt to address a real world problem the
-              company was facing. <br></br>
-              <br></br> Starting only a provided C++ base which opened a window
-              allowing us to view the camera feed (and no documentation either),
-              we used depth data and a processed binary representation of the
-              live feed to isolate model cars on a conveyor belt as a proof of
-              convept to our final solution. <br></br>
-              <video className="w-full p-[5px] rounded-2xl" controls>
-                <source src={cardetectioncode} type="video/mp4" />
-              </video>
-              
-              <br></br> The final program could intelligently filter out
-              irrelevant information in the frame (ie. someones hand waving
-              around) and track the model cars bumper to a precision of +/- 1mm
-              (the maximum resolution of our camera)! 🚗 
-             
-            </p>
-              <a className="p-[15px]" target="_blank" href="https://github.com/BChharaw/CarTrackingMachineVisionAlgorithm">
-              <button className="p-[10px] text-[#fdfffc] hover:bg-[#D45550] border-[1px] px-4 py-1 flex items-center rounded-full ">
-              View the code on Github 
-              <HiArrowNarrowRight />
+    <div className="bg-gray-900 text-white bg-cover bg-fixed bg-center pt-32 pb-20">
+      <div className="container mx-auto px-6 sm:px-8 flex flex-col justify-center h-full">
+        <div className="max-w-3xl mx-auto text-center">
+          <p className="text-4xl sm:text-6xl font-bold mt-4">
+            Real-Time Vehicle Tracking System
+          </p>
+          <p className="text-lg sm:text-2xl font-bold text-blue-500 mt-4">
+            Machine Vision In C++
+          </p>
+          <p className="text-base sm:text-lg max-w-md mx-auto mt-6">
+            As a part of the Toyota Innovation Challenge Hackathon, three friends and I developed a real-time vehicle tracking system to track cars on a conveyor belt, addressing a real-world problem faced by the company.
+          </p>
+          <p className="text-base sm:text-lg max-w-md mx-auto mt-6">
+            Starting with only a provided C++ base, which opened a window allowing us to view the camera feed (without any documentation), we used depth data and a processed binary representation of the live feed to isolate model cars on a conveyor belt as a proof of concept for our final solution.
+          </p>
+          <video className="max-w-full mx-auto mt-8 rounded-2xl z-[-1]" controls>
+            <source src={cardetectioncode} type="video/mp4" />
+          </video>
+          <p className="text-base sm:text-lg max-w-md mx-auto mt-6">
+            The final program could intelligently filter out irrelevant information in the frame, such as someone's hand waving around, and track the model cars' bumper with a precision of +/- 1mm (the maximum resolution of our camera)! 🚗
+          </p>
+          <a href="https://github.com/BChharaw/CarTrackingMachineVisionAlgorithm" target="_blank" rel="noopener noreferrer">
+            <button className="font-bold px-6 py-3 rounded-full bg-white text-gray-900 hover:bg-gray-700 hover:text-white duration-300 ease-in-out flex items-center mt-8 mx-auto">
+              View the code on GitHub
+              <HiArrowNarrowRight className="ml-2" />
             </button>
-            </a>
-              <br></br>
-              <img
-              className="w-full p-[5px] rounded-2xl"
-              src={conveyor}
-              alt="conveyor setup used"
-            ></img>
-              
-          </div>
+          </a>
+          <img
+            className="max-w-full mx-auto mt-8 rounded-2xl"
+            src={conveyor}
+            alt="conveyor setup used"
+          />
         </div>
       </div>
     </div>

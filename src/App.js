@@ -9,7 +9,8 @@ import ProjectsCarDetection from "./components/Projects-CarDetection";
 import ProjectsGantry from "./components/Projects-Gantry";
 import ProjectsEstimator from "./components/Projects-Estimator";
 import { FadeIn } from 'react-fade-in';
-
+import ProjectsTorqueOptimizer from "./components/Projects-Torque";
+import ProjectsBipedal from "./components/Projects-BiPedal";
 function App() {
   return (
       <div>
@@ -23,7 +24,8 @@ function App() {
           <Route path="/projects/cardetection" element={<ProjectsCarDetection />}></Route>
           <Route path="/projects/2axisgantry" element={<ProjectsGantry />}></Route>
           <Route path="/projects/carvalueestimator" element={<ProjectsEstimator />}></Route>
-
+          <Route path="/projects/torqueoptimizer" element={<ProjectsTorqueOptimizer />}></Route>
+          <Route path="/projects/bipedal" element={<ProjectsBipedal />}></Route>
         </Routes>
    
       </div>

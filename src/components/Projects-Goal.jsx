@@ -4,6 +4,7 @@ import Typewriter from "typewriter-effect";
 import MYGOAL from "../assets/goals-as-list.png";
 
 const ProjectsGoal = () => {
+  window.scrollTo(0, 0);
   return (
     <div className="bg-gray-900 text-white bg-cover bg-fixed bg-center pt-32 pb-20">
       <div className="container mx-auto px-6 sm:px-8 flex flex-col justify-center h-full">
