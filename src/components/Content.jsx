@@ -22,7 +22,7 @@ const Content = () => {
               <Typewriter
                 options={{
                   strings: [
-                    "UWaterloo Mechatronics Engineering student",
+                    "UWaterloo Mechatronics Engineering Student",
                     "Interested in computer vision and AI",
                     "Passionate about designing"
                   ],
