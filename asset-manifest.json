@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.832f4930.css",
-    "main.js": "/static/js/main.3e97a082.js",
+    "main.css": "/static/css/main.e704bf04.css",
+    "main.js": "/static/js/main.6cdba690.js",
     "static/media/gantrymotion.mp4": "/static/media/gantrymotion.4cdac12aea2f627438e7.mp4",
     "static/media/toyotainnovation.mp4": "/static/media/toyotainnovation.5e1fc9993d3a2e81d73e.mp4",
     "static/media/frontgantry.jpg": "/static/media/frontgantry.c25acb82e8527e2e181f.jpg",
@@ -13,18 +13,19 @@
     "static/media/outer-prototype.jpg": "/static/media/outer-prototype.d5cb6de17df658e6043b.jpg",
     "static/media/gantrybackground.png": "/static/media/gantrybackground.e08a45a1a3192102c97c.png",
     "static/media/uv-light-on.jpg": "/static/media/uv-light-on.07e91f26cde66ed2a59c.jpg",
+    "static/media/robot.png": "/static/media/robot.f43af415c8b59be1dead.png",
+    "static/media/torqueoptimizer.png": "/static/media/torqueoptimizer.136e065cb3cd5a6a0708.png",
     "static/media/robotbackground.png": "/static/media/robotbackground.6bb98326a4bcc0eb24a1.png",
     "static/media/goals-as-list.png": "/static/media/goals-as-list.38e8e02d38276bd53974.png",
     "static/media/mygoalisimg.png": "/static/media/mygoalisimg.2e7b397517e8951c6138.png",
     "static/media/Spec-car-data.png": "/static/media/Spec-car-data.2b693d1f764665643756.png",
-    "static/media/logo2.png": "/static/media/logo2.e7e28f15a7738e217ab9.png",
     "static/media/CarEstimatorModel.png": "/static/media/CarEstimatorModel.0e71e77533202a25de8e.png",
     "index.html": "/index.html",
-    "main.832f4930.css.map": "/static/css/main.832f4930.css.map",
-    "main.3e97a082.js.map": "/static/js/main.3e97a082.js.map"
+    "main.e704bf04.css.map": "/static/css/main.e704bf04.css.map",
+    "main.6cdba690.js.map": "/static/js/main.6cdba690.js.map"
   },
   "entrypoints": [
-    "static/css/main.832f4930.css",
-    "static/js/main.3e97a082.js"
+    "static/css/main.e704bf04.css",
+    "static/js/main.6cdba690.js"
   ]
 }
