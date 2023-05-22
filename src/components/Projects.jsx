@@ -6,6 +6,8 @@ import Gantry from "../assets/keyboard-typer.gif";
 import TFLRestimator from "../assets/CarEstimatorModel.png";
 import { Link } from "react-router-dom";
 import comingsoon from "../assets/comingsoon.jpg";
+import torqueoptimizer from "../assets/torqueoptimizer.png";
+import robot from "../assets/robot.png"
 const Projects = () => {
   return (
     
@@ -16,7 +18,7 @@ const Projects = () => {
           <div className="hover:bg-gray-700 transition duration-300 ease-in-out bg-gray-800 rounded-lg shadow-lg overflow-hidden">
             <div
               className="w-full h-56 bg-center bg-cover"
-              style={{ backgroundImage: `url(${comingsoon})` }}
+              style={{ backgroundImage: `url(${robot})` }}
               alt="underconstruction"
             ></div>
             <div className="p-4">
@@ -30,7 +32,7 @@ const Projects = () => {
           <div className="hover:bg-gray-700 transition duration-300 ease-in-out bg-gray-800 rounded-lg shadow-lg overflow-hidden">
             <div
               className="w-full h-56 bg-center bg-cover"
-              style={{ backgroundImage: `url(${comingsoon})` }}
+              style={{ backgroundImage: `url(${torqueoptimizer})` }}
               alt="underconstruction"
             ></div>
             <div className="p-4">

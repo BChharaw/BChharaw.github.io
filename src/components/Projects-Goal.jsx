@@ -1,59 +1,62 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
+import Typewriter from "typewriter-effect";
 import MYGOAL from "../assets/goals-as-list.png";
+
 const ProjectsGoal = () => {
   return (
-    <div
-    name="Project about a simple website with cookies"
-    className="w-full bg-[#011627] pt-[80px] text-[#fdfffc]"
-  >
-    <div className="flex flex-col justify-center items-center w-full">
-      <div className="max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8">
-        <div className="sm:text-right pb-8">
-          <p className="text-4xl inline border-b-4 border-[#D45550] text-left">
+    <div className="bg-gray-900 text-white bg-cover bg-fixed bg-center pt-32 pb-20">
+      <div className="container mx-auto px-6 sm:px-8 flex flex-col justify-center h-full">
+        <div className="max-w-3xl mx-auto text-center">
+          <p className="text-4xl sm:text-6xl font-bold mt-4">
             Today My Goal Is...
           </p>
-        </div>
-        <div></div>
-      </div>
-      <div className="max-w-[1000px] w-full px-4 grid sm:grid-cols-2 gap-8">
-        <div className="text-4xl font-bold sm:text-right">
-          <p>A simplistic way to track your goals</p>
-          
-
-        </div>
-        <div>
-          <p className="pb-[5px]">
-            When I was first learning JavaScript, HTML, and CSS I made this
-            simplistic website that tracks your goals using cookies in the
-            browser. <br></br>
-            <br></br> I made it for personal use to hold myself more
-            accountable for the goals I set as I set it as my default browser
-            homepage (worked wonders with
-            my productivity in high school). <br></br>
-            <br></br> Everyday it allows you to set exactly one goal for that
-            day and will display previous goals which you made in the past as
-            a list. You can edit the day's goal by typing something new. <br></br><br></br>Nothing more, nothing less, simplistic as it should be! 😎{" "}
+          <p className="text-lg sm:text-2xl font-bold text-blue-500 mt-4">
+            <div className="h-16">
+              <Typewriter
+                options={{
+                  strings: [
+                    "A simplistic way to track your goals",
+                  ],
+                  autoStart: true,
+                  loop: true,
+                  cursor: "",
+                }}
+              />
+            </div>
           </p>
-      <a href="https://mygoalfortoday.brenc.repl.co/" target="_blank"><button className="p-[10px] text-[#fdfffc] hover:bg-[#D45550] border-[1px] px-4 py-1 flex items-center rounded-full ">
-            Give it a demo! 
-            <HiArrowNarrowRight />
-          </button></a>
-          <div className="p-[5px]"></div>
-          <a  target="_blank" href="https://github.com/BChharaw/GoalTracker">
-              <button className="p-[10px] text-[#fdfffc] hover:bg-[#D45550] border-[1px] px-4 py-1 flex items-center rounded-full ">
-              View the code on Github 
-              <HiArrowNarrowRight />
-            </button>
+          <p className="text-base sm:text-lg max-w-md mx-auto mt-6">
+            When I was first learning JavaScript, HTML, and CSS, I created this simplistic website to track goals using cookies in the browser.
+          </p>
+          <p className="text-base sm:text-lg max-w-md mx-auto mt-2">
+            I designed it for personal use to hold myself more accountable for the goals I set. It served as my default browser homepage during high school and greatly improved my productivity.
+          </p>
+          <p className="text-base sm:text-lg max-w-md mx-auto mt-2">
+            Every day, it allows you to set exactly one goal and displays a list of previous goals. You can edit the goal of the day by typing something new.
+          </p>
+          <p className="text-base sm:text-lg max-w-md mx-auto mt-2">
+            It's a simple and straightforward tool for goal tracking. 😎
+          </p>
+          <div className="mt-8 flex justify-center">
+            <a href="https://mygoalfortoday.brenc.repl.co/" target="_blank" rel="noopener noreferrer">
+              <button className="font-bold px-6 py-3 rounded-full bg-white text-gray-900 hover:bg-gray-700 hover:text-white duration-300 ease-in-out flex items-center">
+                Give it a demo!
+                <HiArrowNarrowRight className="ml-2" />
+              </button>
             </a>
-          <img className = "w-full p-[5px] rounded-2xl" src={MYGOAL} alt="image of my today my goal is website"></img>
-
+          </div>
+          <div className="mt-4 flex justify-center">
+            <a href="https://github.com/BChharaw/GoalTracker" target="_blank" rel="noopener noreferrer">
+              <button className="font-bold px-6 py-3 rounded-full bg-white text-gray-900 hover:bg-gray-700 hover:text-white duration-300 ease-in-out flex items-center">
+                View the code on GitHub
+                <HiArrowNarrowRight className="ml-2" />
+              </button>
+            </a>
+          </div>
+          <img className="max-w-full mx-auto mt-8 rounded-2xl" src={MYGOAL} alt="image of my today my goal is website" />
         </div>
       </div>
-      
-      
     </div>
-  </div>
   );
 };
 

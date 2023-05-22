@@ -1,75 +1,52 @@
-import React from "react";
-import { HiArrowNarrowRight } from "react-icons/hi";
-import estimator from "../assets/CarEstimatorModel.png";
-import specs from "../assets/Spec-car-data.png";
+import React from 'react';
+import { HiArrowNarrowRight } from 'react-icons/hi';
+import estimator from '../assets/CarEstimatorModel.png';
+import specs from '../assets/Spec-car-data.png';
+
 const ProjectsEstimator = () => {
   return (
-    <div
-      name="estimating the value of a car with AI"
-      className="w-full bg-[#011627] pt-[80px] text-[#fdfffc]"
-    >
-      <div className="flex flex-col justify-center items-center w-full">
-        <div className="max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8">
-          <div className="sm:text-right pb-8">
-            <p className="text-4xl inline border-b-4 border-[#D45550] text-left">
-              Car Value Estimator
-            </p>
-          </div>
-          <div></div>
-        </div>
-        <div className="max-w-[1000px] w-full px-4 grid sm:grid-cols-2 gap-8">
-          <div className="text-4xl font-bold sm:text-right">
-            <p>A linear regression model in TensorFlow</p>
-          </div>
-          <div>
-            <p className="pb-[5px]">
-              This is a linear regression model which uses data regarding
-              mileage, engine power, transmission and other technical details to
-              estimate the value of an car. This was done using the{" "}
-              <a
-                className="font-bold underline"
-                href="https://www.kaggle.com/datasets/nehalbirla/vehicle-dataset-from-cardekho"
-              >
-                CarDehko vehicle dataset
-              </a>
-              .<br></br>
-              <img
-              className="w-full p-[5px] pb-[5px] rounded-2xl"
-              src={estimator}
-              alt="image of my today my goal is website"
-            ></img>
-              <br></br> Data for this model was cleaned using Google Sheets and
-              overall this project was fun in the making even though the
-              accuracy wasn't as high as I would've liked and when I tried to optimize for loss it got
-              worse. This is mainly due to there being extreme outliers in the
-              dataset (ie. two cars of very similar make a model could sell for
-              $300 or $8000 respectively due to one being esentially scrap metal
-              and undrivable whereas the other was in excellent condition).
-              <br></br>
-              <a className="p-[15px]" target="_blank" href="https://github.com/BChharaw/CarValueEstimator">
-              <button className="p-[10px] text-[#fdfffc] hover:bg-[#D45550] border-[1px] px-4 py-1 flex items-center rounded-full ">
-              View the code on Github 
-              <HiArrowNarrowRight />
+    <div className="bg-gray-900 text-white bg-cover bg-fixed bg-center pt-32 pb-20">
+      <div className="container mx-auto px-6 sm:px-8 flex flex-col justify-center h-full">
+        <div className="max-w-3xl mx-auto text-center">
+          <p className="text-4xl sm:text-6xl font-bold mt-4">
+            Car Value Estimator
+          </p>
+          <p className="text-lg sm:text-2xl font-bold text-blue-500 mt-4">
+            A linear regression model in TensorFlow
+          </p>
+          <p className="text-base sm:text-lg max-w-md mx-auto mt-6">
+            This is a linear regression model that uses data regarding mileage, engine power, transmission, and other technical details to estimate the value of a car. The model was trained using the{' '}
+            <a
+              className="font-bold underline"
+              href="https://www.kaggle.com/datasets/nehalbirla/vehicle-dataset-from-cardekho"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              CarDehko vehicle dataset
+            </a>.
+          </p>
+          <img
+            className="max-w-full mx-auto mt-8 rounded-2xl"
+            src={estimator}
+            alt="image of my today my goal is website"
+          />
+          <p className="text-base sm:text-lg max-w-md mx-auto mt-6">
+            Data for this model was cleaned using Google Sheets, and overall, this project was fun to work on. Although the accuracy wasn't as high as I would have liked, it was challenging due to extreme outliers in the dataset. For example, two cars of very similar make and model could sell for $300 or $8000, respectively, due to one being essentially scrap metal and undrivable while the other was in excellent condition.
+          </p>
+          <a href="https://github.com/BChharaw/CarValueEstimator" target="_blank" rel="noopener noreferrer">
+            <button className="font-bold px-6 py-3 rounded-full bg-white text-gray-900 hover:bg-gray-700 hover:text-white duration-300 ease-in-out flex items-center mt-8 mx-auto">
+              View the code on GitHub
+              <HiArrowNarrowRight className="ml-2" />
             </button>
-            </a>
-              <img
-              className="w-full p-[5px] rounded-2xl"
-              src={specs}
-              alt="image of my today my goal is website"
-            ></img>
-              <br></br> In the future I may use some Google Sheets wizardry to
-              clean up the outliers, but for now I'm focussing on other more
-              complex machine learning projects such as a convolutional neural
-              network that extrapolates edges to an landscape image which don't
-              exist the original image. (Coming soon!) 🌆{" "}
-<br></br>
-             
-            </p>
-            <div className="p-[10px]">
-   
-            </div>
-         
-          </div>
+          </a>
+          <img
+            className="max-w-full mx-auto mt-8 rounded-2xl"
+            src={specs}
+            alt="image of my today my goal is website"
+          />
+          <p className="text-base sm:text-lg max-w-md mx-auto mt-6">
+            In the future, I may use some Google Sheets wizardry to clean up the outliers. For now, I'm focusing on other more complex machine learning projects. (Coming soon!)
+          </p>
         </div>
       </div>
     </div>
