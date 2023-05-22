@@ -5,74 +5,104 @@ import Car from "../assets/car-tracking.gif";
 import Gantry from "../assets/keyboard-typer.gif";
 import TFLRestimator from "../assets/CarEstimatorModel.png";
 import { Link } from "react-router-dom";
+
 const Projects = () => {
   return (
-    <div className="bg-[#011627] w-full h-full">
-      <div className="grid grid-cols-1 gap-[30px] sm:grid-cols-2 lg:grid-cols-3 p-[30px] pt-[70px]">
-        <Link to="/projects/carvalueestimator"><div className="p-4 rounded-lg text-[#fdfffc] hover:text-[#D45550] hover:underline ">
-          <h1 className="font-bold  text-xl">
-            Car Value Estimator{" "}
-          </h1>
-          <p className="pb-[5px]">(TensorFlow in Python)</p>
-          <img
-            className="w-screen rounded-lg pt-5px"
-            src={TFLRestimator}
-            alt="demontration of model working"
-          />
-        </div>
-        </Link>
-        <Link to="/projects/2axisgantry"><div className="p-4 rounded-lg text-[#fdfffc] hover:text-[#D45550] hover:underline ">
-          <h1 className="font-bold text-xl">
-            High Precision 2-Axis Gantry{" "}
-          </h1>
-          <p className="pb-[5px]">(C with RobotC library)</p>
-          <img
-            className="w-screen rounded-lg pt-5px"
-            src={Gantry}
-            alt="Final term design project UW MTE100"
-          />
-        </div>
-        </Link>
-        <Link to="/projects/cardetection">
-          <div className="p-4 rounded-lg text-[#fdfffc] hover:underline hover:text-[#D45550] ">
-            <h1 className="font-bold text-xl">
-              Car Detection Algorithm{" "}
-            </h1>
-            <p className="pb-[5px]">(Machine Vision in C++)</p>
-            <img
-              className="w-screen rounded-lg pt-5px"
-              src={Car}
-              alt="our project for the University of Waterloo Toyota Innovation Hackathon"
-            />
+    <div className="bg-gray-900 min-h-screen py-16">
+      <div className="container mx-auto max-w-7xl px-4 grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        <Link to="/projects/carvalueestimator">
+          <div className="hover:bg-gray-700 transition duration-300 ease-in-out bg-gray-800 rounded-lg shadow-lg overflow-hidden">
+            <div
+              className="w-full h-56 bg-center bg-cover"
+              style={{ backgroundImage: `url(${TFLRestimator})` }}
+              alt="demonstration of model working"
+            ></div>
+            <div className="p-4">
+              <h1 className="text-xl font-semibold text-white mb-2">Car Value Estimator</h1>
+              <p className="text-gray-400 mb-4">(TensorFlow in Python)</p>
+              <Link
+                to="/projects/carvalueestimator"
+                className="text-blue-500 hover:text-blue-600 hover:underline"
+              >
+                Learn More
+              </Link>
+            </div>
           </div>
         </Link>
-
+        <Link to="/projects/2axisgantry">
+          <div className="hover:bg-gray-700 transition duration-300 ease-in-out bg-gray-800 rounded-lg shadow-lg overflow-hidden">
+            <div
+              className="w-full h-56 bg-center bg-cover"
+              style={{ backgroundImage: `url(${Gantry})` }}
+              alt="Final term design project UW MTE100"
+            ></div>
+            <div className="p-4">
+              <h1 className="text-xl font-semibold text-white mb-2">High Precision Gantry</h1>
+              <p className="text-gray-400 mb-4">(C with RobotC library)</p>
+              <Link
+                to="/projects/2axisgantry"
+                className="text-blue-500 hover:text-blue-600 hover:underline"
+              >
+                Learn More
+              </Link>
+            </div>
+          </div>
+        </Link>
+        <Link to="/projects/cardetection">
+          <div className="hover:bg-gray-700 transition duration-300 ease-in-out bg-gray-800 rounded-lg shadow-lg overflow-hidden">
+            <div
+              className="w-full h-56 bg-center bg-cover"
+              style={{ backgroundImage: `url(${Car})` }}
+              alt="our project for the University of Waterloo Toyota Innovation Hackathon"
+            ></div>
+            <div className="p-4">
+              <h1 className="text-xl font-semibold text-white mb-2">Car Detection Algorithm</h1>
+              <p className="text-gray-400 mb-4">(Machine Vision in C++)</p>
+              <Link
+                to="/projects/cardetection"
+                className="text-blue-500 hover:text-blue-600 hover:underline"
+              >
+                Learn More
+              </Link>
+            </div>
+          </div>
+        </Link>
         <Link to="/projects/uvcclean">
-          <div className="p-4 rounded-lg text-[#fdfffc] hover:text-[#D45550] hover:underline ">
-            <h1 className="font-bold  text-xl">
-              Autnomous Water Disinfection System{" "}
-            </h1>
-            <p className="pb-[5px]">
-              (JavaScript, HTML/CSS, BootStrap, and C++)
-            </p>
-            <img
-              className="w-screen rounded-lg pt-5px"
-              src={UVCC}
+          <div className="hover:bg-gray-700 transition duration-300 ease-in-out bg-gray-800 rounded-lg shadow-lg overflow-hidden">
+            <div
+              className="w-full h-56 bg-center bg-cover"
+              style={{ backgroundImage: `url(${UVCC})` }}
               alt="photo of the outer completed prototype"
-            />
+            ></div>
+            <div className="p-4">
+              <h1 className="text-xl font-semibold text-white mb-2">Water Disinfection System</h1>
+              <p className="text-gray-400 mb-4">(JS, HTML/CSS, and C++)</p>
+              <Link
+                to="/projects/uvcclean"
+                className="text-blue-500 hover:text-red-600 hover:underline"
+              >
+                Learn More
+              </Link>
+            </div>
           </div>
         </Link>
         <Link to="/projects/goalfortheday">
-          <div className="p-4 rounded-lg text-[#fdfffc] hover:text-[#D45550] hover:underline ">
-            <h1 className="font-bold  text-xl">
-              Goal Tracker{" "}
-            </h1>
-            <p className="pb-[5px]">(JavaScript, and HTML/CSS)</p>
-            <img
-              className="w-screen rounded-lg pt-5px "
-              src={MyGoal}
+          <div className="hover:bg-gray-700 transition duration-300 ease-in-out bg-gray-800 rounded-lg shadow-lg overflow-hidden">
+            <div
+              className="w-full h-56 bg-center bg-cover"
+              style={{ backgroundImage: `url(${MyGoal})` }}
               alt="cover photo for 'today my goal is project"
-            />
+            ></div>
+            <div className="p-4">
+              <h1 className="text-xl font-semibold text-white mb-2">Goal Tracker</h1>
+              <p className="text-gray-400 mb-4">(JavaScript and HTML/CSS)</p>
+              <Link
+                to="/projects/goalfortheday"
+                className="text-blue-500 hover:text-blue-600 hover:underline"
+              >
+                Learn More
+              </Link>
+            </div>
           </div>
         </Link>
       </div>

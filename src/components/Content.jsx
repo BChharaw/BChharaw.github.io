@@ -3,42 +3,45 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 import Typewriter from "typewriter-effect";
 import { Link } from "react-router-dom";
 import { FadeIn } from 'react-fade-in';
+
 const Content = () => {
   return (
     <div
-      name="main"
-      className="bg-[url('https://cc246282-1098-4f57-bdc7-4b8c66f018e5.id.repl.co/back1.png')] bg-cover bg-fixed bg-center pt-[80px] w-full h-screen"
+      className="bg-gray-900 text-white bg-cover bg-fixed bg-center pt-32 pb-20 h-screen"
+      style={{ backgroundImage: "url('https://cc246282-1098-4f57-bdc7-4b8c66f018e5.id.repl.co/back1.png')" }}
     >
-      <div className="pl-[20px] max-w-[1080] mx-auto px-8 flex flex-col justify-center h-full">
-        <p className="text-xl sm:text-3xl text-[#fdfffc]">Hi I'm</p>
-        <h1 className="text-3xl sm:text-7xl font-bold text-[#fdfffc]">
-          Brendan
-        </h1>
-        <h2 className="text-xl sm:text-3xl font-bold text-[#D45550]">
-          <div className="h-20 z-10">
-            <Typewriter
-              options={{
-                strings: [
-                  "I'm a UWaterloo robotics engineering student",
-                  "I research bipedal robotics at GoodLabs Studio",
-                ],
-                autoStart: true,
-                loop: true,
-                cursor: "",
-              }}
-            />
+      <div className="container mx-auto px-6 sm:px-8 flex flex-col justify-center h-full">
+        <div className="max-w-3xl mx-auto text-center">
+          <p className="text-base">Hi, I'm</p>
+          <h1 className="text-4xl sm:text-6xl font-bold mt-4">
+            Brendan
+          </h1>
+          <h2 className="text-lg sm:text-2xl font-bold text-blue-500 mt-4">
+            <div className="h-16">
+              <Typewriter
+                options={{
+                  strings: [
+                    "I'm a UWaterloo robotics engineering student",
+                    "I research bipedal robotics at GoodLabs Studio",
+                  ],
+                  autoStart: true,
+                  loop: true,
+                  cursor: "",
+                }}
+              />
+            </div>
+          </h2>
+          <p className="text-base sm:text-lg max-w-md mx-auto mt-6">
+            Currently, I'm on co-op at GoodLabs Studio designing Robbie, a natural walking bipedal... check it out!
+          </p>
+          <div className="mt-8 flex justify-center">
+            <Link to="/projects">
+              <button className="font-bold px-6 py-3 rounded-full bg-white text-gray-900 hover:bg-gray-700 hover:text-white duration-300 ease-in-out flex items-center">
+                My experience
+                <HiArrowNarrowRight className="ml-2" />
+              </button>
+            </Link>
           </div>
-        </h2>
-        <p className="text-[#fdfffc] text-sm sm:text-lg max-w-[750px]">
-          Currently I'm on coop at GoodLabs Studio designing Robbie, a natural walking bipedal... check it out!
-        </p>
-        <div className="py-4">
-          <Link to="/projects">
-            <button className="p-[10px] text-[#fdfffc] hover:bg-[#D45550] border-[1px] px-4 py-1 flex items-center rounded-full ">
-              My experience 
-              <HiArrowNarrowRight />
-            </button>
-          </Link>
         </div>
       </div>
     </div>

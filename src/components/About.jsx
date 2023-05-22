@@ -1,37 +1,25 @@
 import React from "react";
-import {FadeIn} from "react-fade-in";
+import { Link } from "react-router-dom";
+import { HiArrowNarrowRight } from "react-icons/hi";
+
 const About = () => {
   return (
     <div
-      name="about"
-      className="w-full h-screen bg-[url('https://cc246282-1098-4f57-bdc7-4b8c66f018e5.id.repl.co/back2.png')] bg-fixed bg-center bg-cover pt-[80px] text-[#fdfffc]"
+      className="bg-gray-900 text-white bg-cover bg-fixed bg-center h-screen"
+      style={{ backgroundImage: "url('https://cc246282-1098-4f57-bdc7-4b8c66f018e5.id.repl.co/back2.png')" }}
     >
-      <div className="flex flex-col justify-center items-center w-full h-full">
-        <div className="max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8">
-          <div className="sm:text-right pb-8">
-            <p className="text-4xl inline border-b-4 border-[#D45550] text-left">
-              About
+      <div className="container mx-auto px-6 sm:px-8 flex flex-col justify-center h-full">
+        <div className="max-w-3xl mx-auto text-center">
+          <h1 className="text-4xl sm:text-6xl font-bold mt-4">
+            About Me
+          </h1>
+          <div className="max-w-md mx-auto mt-6">
+            <p className="text-lg">
+              Hi, I'm Brendan. Nice to meet you!
             </p>
-          </div>
-          <div></div>
-        </div>
-        <div className="max-w-[1000px] w-full px-4 grid sm:grid-cols-2 gap-8">
-          <div className="text-4xl font-bold sm:text-right">
-            
-            <p>Hi I'm Brendan nice to meet you!</p>
-          </div>
-          <div>
-            <p>
-              I'm a student at the University of Waterloo looking for a summer
-              2023 co-op position. I enjoy playing around with neural networks
-              and computer vision, and building autonomous systems! <br></br>{" "}
-              <br></br>I may work with robots every day (check out my projects!)
-              but I promise I am human. Feel free to send me an email at{" "}
-              <a className="font-bold" href="brendancmechatronics@gmail.com
-">brendancmechatronics@gmail.com
-              </a>
-              ! <br></br><br></br>To take a look at my resume, please email me as well.
-            </p>
+            <p className="text-base mt-4">
+              I'm a student at the University of Waterloo studying Mechatronics Engineering. I'm passionate about neural networks, computer vision, and building autonomous systems. At the moment, I'm particularly interested in applying my skills in bipedal robotics. <br/><br/>Despite working with robots all day, I promise I haven't become one (yet)! If you have any questions, or would like to connect, feel free to reach out to me at <a className="text-blue-500 font-bold" href="mailto:brendancmechatronics@gmail.com">brendancmechatronics@gmail.com</a>. <br/><br/>
+</p>          
           </div>
         </div>
       </div>
