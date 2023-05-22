@@ -59,7 +59,7 @@ const Navbar = () => {
             rel="noopener noreferrer"
             className="hover:text-blue-500 transition duration-300 ease-in-out"
           >
-            <FaLinkedin className="inline-block" />
+            <FaLinkedin className="inline-block text-xl" />
           </a>
         </li>
         <li>
@@ -69,7 +69,7 @@ const Navbar = () => {
             rel="noopener noreferrer"
             className="hover:text-blue-500 transition duration-300 ease-in-out"
           >
-            <FaEnvelope className="inline-block" />
+            <FaEnvelope className="inline-block text-xl" />
           </a>
         </li>
         <li>
@@ -79,7 +79,7 @@ const Navbar = () => {
             rel="noopener noreferrer"
             className="hover:text-blue-500 transition duration-300 ease-in-out"
           >
-            <FaGithub className="inline-block" />
+            <FaGithub className="inline-block text-xl" />
           </a>
         </li>
       </ul>
@@ -128,7 +128,7 @@ const Navbar = () => {
         rel="noopener noreferrer"
         onClick={handleClick}
       >
-        <FaLinkedin className="inline-block" />
+        <FaLinkedin className="inline-block text-3xl" />
       </a>
     </p>
     <p className="hover:text-blue-500 transition duration-300 ease-in-out text-2xl py-2 px-2 inline-block mr-4">
@@ -138,7 +138,7 @@ const Navbar = () => {
         rel="noopener noreferrer"
         onClick={handleClick}
       >
-        <FaEnvelope className="inline-block" />
+        <FaEnvelope className="inline-block text-3xl" />
       </a>
     </p>
     <p className="hover:text-blue-500 transition duration-300 ease-in-out text-2xl py-2 inline-block mr-4">
@@ -148,7 +148,7 @@ const Navbar = () => {
         rel="noopener noreferrer"
         onClick={handleClick}
       >
-        <FaGithub className="inline-block" />
+        <FaGithub className="inline-block text-3xl" />
       </a>
     </p>
     
