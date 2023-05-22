@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8e196f03.css",
-    "main.js": "/static/js/main.a26b5710.js",
+    "main.js": "/static/js/main.40b3e5a5.js",
     "static/media/gantrymotion.mp4": "/static/media/gantrymotion.4cdac12aea2f627438e7.mp4",
     "static/media/toyotainnovation.mp4": "/static/media/toyotainnovation.5e1fc9993d3a2e81d73e.mp4",
     "static/media/frontgantry.jpg": "/static/media/frontgantry.c25acb82e8527e2e181f.jpg",
@@ -12,6 +12,7 @@
     "static/media/flowing-water.jpg": "/static/media/flowing-water.0aba935bef909c9d0335.jpg",
     "static/media/outer-prototype.jpg": "/static/media/outer-prototype.d5cb6de17df658e6043b.jpg",
     "static/media/uv-light-on.jpg": "/static/media/uv-light-on.07e91f26cde66ed2a59c.jpg",
+    "static/media/robotbackground.png": "/static/media/robotbackground.6bb98326a4bcc0eb24a1.png",
     "static/media/goals-as-list.png": "/static/media/goals-as-list.38e8e02d38276bd53974.png",
     "static/media/mygoalisimg.png": "/static/media/mygoalisimg.2e7b397517e8951c6138.png",
     "static/media/Spec-car-data.png": "/static/media/Spec-car-data.2b693d1f764665643756.png",
@@ -19,10 +20,10 @@
     "static/media/CarEstimatorModel.png": "/static/media/CarEstimatorModel.0e71e77533202a25de8e.png",
     "index.html": "/index.html",
     "main.8e196f03.css.map": "/static/css/main.8e196f03.css.map",
-    "main.a26b5710.js.map": "/static/js/main.a26b5710.js.map"
+    "main.40b3e5a5.js.map": "/static/js/main.40b3e5a5.js.map"
   },
   "entrypoints": [
     "static/css/main.8e196f03.css",
-    "static/js/main.a26b5710.js"
+    "static/js/main.40b3e5a5.js"
   ]
 }
