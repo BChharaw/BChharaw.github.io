@@ -15,7 +15,7 @@ const Content = () => {
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-base">Hi, I'm</p>
           <h1 className="text-4xl sm:text-6xl font-bold mt-4">
-            Brendan
+            Brendan!
           </h1>
           <h2 className="text-lg sm:text-2xl font-bold text-blue-500 mt-4">
             <div className="h-16">
