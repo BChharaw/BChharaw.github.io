@@ -3,12 +3,13 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 import Typewriter from "typewriter-effect";
 import { Link } from "react-router-dom";
 import { FadeIn } from 'react-fade-in';
-
+import conveyor from "../assets/conveyorsetup.jpg";
+import robotbackground from "../assets/robotbackground.png";
 const Content = () => {
   return (
     <div
       className="bg-gray-900 text-white bg-cover bg-fixed bg-center pt-32 pb-20 h-screen"
-      style={{ backgroundImage: "url('https://cc246282-1098-4f57-bdc7-4b8c66f018e5.id.repl.co/back1.png')" }}
+      style={{ backgroundImage: "url('/static/media/robotbackground.6bb98326a4bcc0eb24a1.png')" }}
     >
       <div className="container mx-auto px-6 sm:px-8 flex flex-col justify-center h-full">
         <div className="max-w-3xl mx-auto text-center">
@@ -22,7 +23,7 @@ const Content = () => {
                 options={{
                   strings: [
                     "I'm a UWaterloo robotics engineering student",
-                    "I research bipedal robotics at GoodLabs Studio",
+                    "I'm designing a bipedal robot at GoodLabs Studio",
                   ],
                   autoStart: true,
                   loop: true,
