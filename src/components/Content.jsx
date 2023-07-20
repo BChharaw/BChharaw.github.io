@@ -18,12 +18,12 @@ const Content = () => {
             I make ideas happen.
           </h1>
           <p className="text-base sm:text-lg max-w-md mx-auto mt-6">
-            I'm currently working at <a target="_blank" className="text-blue-500 hover:underline " href="https://www.goodlabs.studio/">GoodLabs Studio</a> designing Robbie, a natural walking bipedal (shown in background)!
+            I'm currently working at <a target="_blank" className="text-blue-500 hover:underline " href="https://www.goodlabs.studio/">GoodLabs Studio</a> as a Machine Learning and Robotics Developer where I'm heading the AI development for Robbie (shown in background)!
           </p>
           <div className="mt-8 flex justify-center">
-            <Link to="/projects">
+            <Link to="/about">
               <button className="font-bold px-6 py-3 rounded-full bg-white text-gray-900 hover:bg-gray-700 hover:text-white duration-300 ease-in-out flex items-center">
-                My experience
+                About me!
                 <HiArrowNarrowRight className="ml-2" />
               </button>
             </Link>
