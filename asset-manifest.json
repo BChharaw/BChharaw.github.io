@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.e55a8c7d.css",
-    "main.js": "/static/js/main.091a4496.js",
+    "main.css": "/static/css/main.efc78733.css",
+    "main.js": "/static/js/main.b653598c.js",
     "static/media/gantrymotion.mp4": "/static/media/gantrymotion.4cdac12aea2f627438e7.mp4",
     "static/media/toyotainnovation.mp4": "/static/media/toyotainnovation.5e1fc9993d3a2e81d73e.mp4",
+    "static/media/speaker1image2.PNG": "/static/media/speaker1image2.8b9604eee897ad3c8031.PNG",
     "static/media/frontgantry.jpg": "/static/media/frontgantry.c25acb82e8527e2e181f.jpg",
     "static/media/keyboard-typer.gif": "/static/media/keyboard-typer.8a3ca474abf7360e91a3.gif",
     "static/media/car-tracking.gif": "/static/media/car-tracking.0749a36206c3bb8e941d.gif",
@@ -13,19 +14,22 @@
     "static/media/outer-prototype.jpg": "/static/media/outer-prototype.d5cb6de17df658e6043b.jpg",
     "static/media/gantrybackground.png": "/static/media/gantrybackground.e08a45a1a3192102c97c.png",
     "static/media/uv-light-on.jpg": "/static/media/uv-light-on.07e91f26cde66ed2a59c.jpg",
+    "static/media/speaker2image2.jpg": "/static/media/speaker2image2.cc3b9f85219282c90553.jpg",
+    "static/media/speaker2image1.jpg": "/static/media/speaker2image1.2190e6339331f3b68b6f.jpg",
     "static/media/robot.png": "/static/media/robot.f43af415c8b59be1dead.png",
     "static/media/torqueoptimizer.png": "/static/media/torqueoptimizer.136e065cb3cd5a6a0708.png",
     "static/media/robotbackground.png": "/static/media/robotbackground.6bb98326a4bcc0eb24a1.png",
+    "static/media/speaker1image1.jpg": "/static/media/speaker1image1.f9b8f4de32d5d5e87382.jpg",
     "static/media/goals-as-list.png": "/static/media/goals-as-list.38e8e02d38276bd53974.png",
     "static/media/mygoalisimg.png": "/static/media/mygoalisimg.2e7b397517e8951c6138.png",
     "static/media/Spec-car-data.png": "/static/media/Spec-car-data.2b693d1f764665643756.png",
     "static/media/CarEstimatorModel.png": "/static/media/CarEstimatorModel.0e71e77533202a25de8e.png",
     "index.html": "/index.html",
-    "main.e55a8c7d.css.map": "/static/css/main.e55a8c7d.css.map",
-    "main.091a4496.js.map": "/static/js/main.091a4496.js.map"
+    "main.efc78733.css.map": "/static/css/main.efc78733.css.map",
+    "main.b653598c.js.map": "/static/js/main.b653598c.js.map"
   },
   "entrypoints": [
-    "static/css/main.e55a8c7d.css",
-    "static/js/main.091a4496.js"
+    "static/css/main.efc78733.css",
+    "static/js/main.b653598c.js"
   ]
 }
