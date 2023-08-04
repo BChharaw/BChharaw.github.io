@@ -10,13 +10,12 @@ const About = () => {
     >
       <div className="container mx-auto px-6 sm:px-8 flex flex-col justify-center h-full">
         <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-4xl sm:text-6xl font-bold mt-4">
+          <h1 className="text-4xl sm:text-6xl font-bold mt-5">
             About Me
           </h1><br></br>
-          <h2 className="text-xl font-bold text-blue-500">If you believe in working towards a better tomorrow, I'd like to help make your ideas happen.</h2>
           <div className="max-w-md mx-auto mt-6">
             <p className="text-base">
-            I'm Brendan, a Mechatronics Engineering student from the University of Waterloo. <br></br><br></br>My main expertise lies in C++ and Python, particularly in OpenCV and TensorFlow. Additionally, I have experience in front-end development (React, JS, HTML/CSS) and CAD design (Fusion360, SolidWorks, AutoCAD).
+            I'm Brendan, a Mechatronics Engineering student from the University of Waterloo. <br></br><br></br>My main expertise lies in machine learning and computer vision development (Python) using libraries such as TensorFlow, PyTorch, OpenCV, and Isaac Gym. <br></br><br></br>I have also delved into embedded development (C/C++), front-end (React, JS, HTML/CSS), and CAD design (Fusion360, SolidWorks, AutoCAD).
             
             <br/><br/>Contact me at <a className="text-blue-500 font-bold" href="mailto:brendancmechatronics@gmail.com">brendancmechatronics@gmail.com</a>. <br/><br/>
 </p>          

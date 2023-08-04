@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="fixed w-full h-16 flex justify-between items-center px-4 bg-gray-900 text-white z-[1]">
       <div className="flex items-center">
-        <Link to="/" onClick={handleClick}>
+        <Link to="/">
         <h1 className="text-xl font-bold ml-2 hover:text-blue-500 transition duration-300 ease-in-out">Brendan C</h1>
         </Link>
         
@@ -37,10 +37,10 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            to="/projects"
+            to="/experience"
             className="hover:text-blue-500 transition duration-300 ease-in-out"
           >
-            Projects
+            Experience
           </Link>
         </li>
         <li>
@@ -105,8 +105,8 @@ const Navbar = () => {
             </Link>
           </p>
           <p className="hover:text-blue-500 transition duration-300 ease-in-out text-2xl py-2">
-            <Link to="/projects" onClick={handleClick}>
-              Projects
+            <Link to="/experience" onClick={handleClick}>
+              Experience
             </Link>
           </p>
         </div>

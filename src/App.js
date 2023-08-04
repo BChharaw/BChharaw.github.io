@@ -11,6 +11,9 @@ import ProjectsEstimator from "./components/Projects-Estimator";
 import { FadeIn } from 'react-fade-in';
 import ProjectsTorqueOptimizer from "./components/Projects-Torque";
 import ProjectsBipedal from "./components/Projects-BiPedal";
+import BluetoothSpeakerProject from "./components/Projects-Speaker1";
+import BluetoothSpeakerProject2 from "./components/Project-Speaker2";
+
 function App() {
   return (
       <div>
@@ -18,14 +21,17 @@ function App() {
         <Routes>
           <Route path="/" element={<Content />}></Route>
           <Route path="/about" element={<About />}></Route>
-          <Route path="/projects" element={<Projects />}></Route>
-          <Route path="/projects/goalfortheday" element={<ProjectsGoal />}></Route>
-          <Route path="/projects/uvcclean" element={<ProjectsUVC />}></Route>
-          <Route path="/projects/cardetection" element={<ProjectsCarDetection />}></Route>
-          <Route path="/projects/2axisgantry" element={<ProjectsGantry />}></Route>
-          <Route path="/projects/carvalueestimator" element={<ProjectsEstimator />}></Route>
-          <Route path="/projects/torqueoptimizer" element={<ProjectsTorqueOptimizer />}></Route>
-          <Route path="/projects/bipedal" element={<ProjectsBipedal />}></Route>
+          <Route path="/experience" element={<Projects />}></Route>
+          <Route path="/experience/goalfortheday" element={<ProjectsGoal />}></Route>
+          <Route path="/experience/uvcclean" element={<ProjectsUVC />}></Route>
+          <Route path="/experience/cardetection" element={<ProjectsCarDetection />}></Route>
+          <Route path="/experience/2axisgantry" element={<ProjectsGantry />}></Route>
+          <Route path="/experience/carvalueestimator" element={<ProjectsEstimator />}></Route>
+          <Route path="/experience/torqueoptimizer" element={<ProjectsTorqueOptimizer />}></Route>
+          <Route path="/experience/bipedal" element={<ProjectsBipedal />}></Route>
+          <Route path="/experience/bluetoothspeakerversion1" element={<BluetoothSpeakerProject />}></Route>
+          <Route path="/experience/bluetoothspeakerversion2" element={<BluetoothSpeakerProject2 />}></Route>
+
         </Routes>
    
       </div>

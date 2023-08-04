@@ -16,7 +16,7 @@ const ProjectsTorque = () => {
             Optimizes torque based on set criteria
           </p>
           <p className="text-base sm:text-lg max-w-md mx-auto mt-6">
-            Locates minimal torque design using brute force optimization for any 3 axis robotic arm based on set criteria of where it needs to reach and the specified load. Developed alongside Samantha Chong for the MTE119 final project.
+            Locates minimal torque design using brute force optimization for any 3 axis robotic arm based on set criteria of where it needs to reach and the specified load. Developed alongside Samantha Chong.
           </p>
           <img
             className="max-w-full mx-auto mt-8 rounded-2xl"
