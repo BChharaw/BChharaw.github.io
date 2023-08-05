@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a9f21ec2.css",
-    "main.js": "/static/js/main.bec6458c.js",
+    "main.js": "/static/js/main.a8094749.js",
     "static/media/gantrymotion.mp4": "/static/media/gantrymotion.4cdac12aea2f627438e7.mp4",
     "static/media/toyotainnovation.mp4": "/static/media/toyotainnovation.5e1fc9993d3a2e81d73e.mp4",
     "static/media/crane.jpeg": "/static/media/crane.9a0314927bbc5401e972.jpeg",
@@ -33,10 +33,10 @@
     "static/media/CarEstimatorModel.png": "/static/media/CarEstimatorModel.0e71e77533202a25de8e.png",
     "index.html": "/index.html",
     "main.a9f21ec2.css.map": "/static/css/main.a9f21ec2.css.map",
-    "main.bec6458c.js.map": "/static/js/main.bec6458c.js.map"
+    "main.a8094749.js.map": "/static/js/main.a8094749.js.map"
   },
   "entrypoints": [
     "static/css/main.a9f21ec2.css",
-    "static/js/main.bec6458c.js"
+    "static/js/main.a8094749.js"
   ]
 }
