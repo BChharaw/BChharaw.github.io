@@ -20,7 +20,7 @@ const About = () => {
             <br/><br/>Contact me at <a className="text-blue-500 font-bold" href="mailto:brendancmechatronics@gmail.com">brendancmechatronics@gmail.com</a>. <br/><br/>
 </p>          
 <div className="mt-8 flex justify-center">
-            <Link to="/projects">
+            <Link to="/experience">
               <button className="font-bold px-6 py-3 rounded-full bg-white text-gray-900 hover:bg-gray-700 hover:text-white duration-300 ease-in-out flex items-center">
                 My Experience
                 <HiArrowNarrowRight className="ml-2" />
