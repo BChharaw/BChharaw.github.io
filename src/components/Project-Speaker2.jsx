@@ -22,9 +22,9 @@ const BluetoothSpeakerProject = () => {
             src={speaker2image1}
             alt="picture of built speaker, it has dual speakers for stereo"
           />
-          <a href="https://drive.google.com/file/d/1UJn1_mlDJh7KRgchUkCvpnsx2lXTTpMn/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <a href="www.example.com" target="_blank" rel="noopener noreferrer">
             <button className="font-bold px-6 py-3 rounded-full bg-white text-gray-900 hover:bg-gray-700 hover:text-white duration-300 ease-in-out flex items-center mt-8 mx-auto">
-              Link to video of it working
+              (Link to come soon)
               <HiArrowNarrowRight className="ml-2" />
             </button>
           </a>

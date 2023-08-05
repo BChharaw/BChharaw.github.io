@@ -13,6 +13,9 @@ import ProjectsTorqueOptimizer from "./components/Projects-Torque";
 import ProjectsBipedal from "./components/Projects-BiPedal";
 import BluetoothSpeakerProject from "./components/Projects-Speaker1";
 import BluetoothSpeakerProject2 from "./components/Project-Speaker2";
+import ProjectsBipedalRL from "./components/Projects-RLbipedal";
+import CarDesigner from "./components/Projects-CarDesigner";
+import Crane from "./components/Projects-Crane"
 
 function App() {
   return (
@@ -27,10 +30,14 @@ function App() {
           <Route path="/experience/cardetection" element={<ProjectsCarDetection />}></Route>
           <Route path="/experience/2axisgantry" element={<ProjectsGantry />}></Route>
           <Route path="/experience/carvalueestimator" element={<ProjectsEstimator />}></Route>
+          <Route path="/experience/AI_car_designer" element={<CarDesigner />}></Route>
           <Route path="/experience/torqueoptimizer" element={<ProjectsTorqueOptimizer />}></Route>
           <Route path="/experience/bipedal" element={<ProjectsBipedal />}></Route>
+          <Route path="/experience/adversarial_humanoid_walking" element={<ProjectsBipedalRL />}></Route>
           <Route path="/experience/bluetoothspeakerversion1" element={<BluetoothSpeakerProject />}></Route>
           <Route path="/experience/bluetoothspeakerversion2" element={<BluetoothSpeakerProject2 />}></Route>
+          <Route path="/experience/crane" element={<Crane />}></Route>
+
 
         </Routes>
    

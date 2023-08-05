@@ -7,9 +7,12 @@ import TFLRestimator from "../assets/CarEstimatorModel.png";
 import { Link } from "react-router-dom";
 import comingsoon from "../assets/comingsoon.jpg";
 import torqueoptimizer from "../assets/torqueoptimizer.png";
-import robot from "../assets/robot.png"
+import robot from "../assets/robbie.jpg"
+import robotcad from "../assets/robot.png"
 import speaker1image1 from "../assets/speaker1image1.jpg"
 import speaker2image2 from "../assets/speaker2image2.jpg"
+import crane from "../assets/crane.jpeg"
+import RL from "../assets/RL.png"
 const Projects = () => {
   window.scrollTo(0, 0);
   return (
@@ -17,6 +20,20 @@ const Projects = () => {
     <div className="bg-gray-900 min-h-screen py-20  bg-cover bg-fixed bg-center" style={{ backgroundImage: "url('/static/media/mte100background.f28e2f8c5901c4760f85.png')" }}>
       
       <div className="container mx-auto max-w-7xl px-4 grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+      <Link to="/experience/adversarial_humanoid_walking">
+          <div className="hover:bg-gray-700 transition duration-300 ease-in-out bg-gray-800 rounded-lg shadow-lg overflow-hidden">
+            <div
+              className="w-full h-56 bg-center bg-cover"
+              style={{ backgroundImage: `url(${RL})` }}
+              alt="underconstruction"
+            ></div>
+            <div className="p-4">
+              <h1 className="text-xl font-semibold text-white mb-2">Adversarial Reinforcement Learning Algorithm for Humanoids</h1>
+              <p className="text-gray-400 mb-4">(Python, TensorFlow, and PyTorch)</p>
+              
+            </div>
+          </div>
+        </Link>
       <Link to="/experience/bipedal">
           <div className="hover:bg-gray-700 transition duration-300 ease-in-out bg-gray-800 rounded-lg shadow-lg overflow-hidden">
             <div
@@ -31,7 +48,21 @@ const Projects = () => {
             </div>
           </div>
         </Link>
-      <Link to="/experience/torqueoptimizer">
+        <Link to="/experience/carvalueestimator">
+          <div className="hover:bg-gray-700 transition duration-300 ease-in-out bg-gray-800 rounded-lg shadow-lg overflow-hidden">
+            <div
+              className="w-full h-56 bg-center bg-cover"
+              style={{ backgroundImage: `url(${TFLRestimator})` }}
+              alt="demonstration of model working"
+            ></div>
+            <div className="p-4">
+              <h1 className="text-xl font-semibold text-white mb-2">AI Car Value Estimator</h1>
+              <p className="text-gray-400 mb-4">(TensorFlow in Python)</p>
+              
+            </div>
+          </div>
+        </Link>
+        <Link to="/experience/torqueoptimizer">
           <div className="hover:bg-gray-700 transition duration-300 ease-in-out bg-gray-800 rounded-lg shadow-lg overflow-hidden">
             <div
               className="w-full h-56 bg-center bg-cover"
@@ -41,21 +72,6 @@ const Projects = () => {
             <div className="p-4">
               <h1 className="text-xl font-semibold text-white mb-2">Robotic Joint Optimizer</h1>
               <p className="text-gray-400 mb-4">(C++)</p>
-              
-            </div>
-          </div>
-        </Link>
-       
-        <Link to="/experience/carvalueestimator">
-          <div className="hover:bg-gray-700 transition duration-300 ease-in-out bg-gray-800 rounded-lg shadow-lg overflow-hidden">
-            <div
-              className="w-full h-56 bg-center bg-cover"
-              style={{ backgroundImage: `url(${TFLRestimator})` }}
-              alt="demonstration of model working"
-            ></div>
-            <div className="p-4">
-              <h1 className="text-xl font-semibold text-white mb-2">Car Value Estimator</h1>
-              <p className="text-gray-400 mb-4">(TensorFlow in Python)</p>
               
             </div>
           </div>
@@ -112,6 +128,21 @@ const Projects = () => {
             <div className="p-4">
               <h1 className="text-xl font-semibold text-white mb-2">Bluetooth Speaker (V.2)</h1>
               <p className="text-gray-400 mb-4">(Circuits, Fusion360, 3D Printing)</p>
+            </div>
+          </div>
+        </Link>
+        <Link to="/experience/crane">
+          <div className="hover:bg-gray-700 transition duration-300 ease-in-out bg-gray-800 rounded-lg shadow-lg overflow-hidden">
+            <div
+              className="w-full h-56 bg-center bg-cover"
+              style={{ backgroundImage: `url(${crane})` }}
+              alt="cover photo for 'today my goal is project"
+            ></div>
+            <div className="p-4">
+              <h1 className="text-xl font-semibold text-white mb-2">RC Robotic Crane</h1>
+              <p className="text-gray-400 mb-4">(Tron Day Project)</p>
+
+        
             </div>
           </div>
         </Link>
