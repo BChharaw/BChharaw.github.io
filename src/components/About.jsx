@@ -33,7 +33,7 @@ const About = () => {
           </h1>
           <div className="max-w-md mx-auto mt-6">
             <p className="text-base">
-              I'm Brendan, a Mechatronics Engineering student from the University of Waterloo. My main expertise lies in machine learning and computer vision development using Python and libraries such as TensorFlow, PyTorch, OpenCV, and Isaac Gym. I have also delved into embedded development with C/C++, front-end technologies like React, JavaScript, HTML/CSS, and CAD design using Fusion360, SolidWorks, and AutoCAD.
+              I'm Brendan, a Mechatronics Engineering student from the University of Waterloo. <br></br><br></br>My main expertise lies in machine learning and computer vision development using Python and libraries such as TensorFlow, PyTorch, OpenCV, and Isaac Gym. I have also delved into embedded development with C/C++, front-end technologies like React, JavaScript, HTML/CSS, and CAD design using Fusion360, SolidWorks, and AutoCAD.
             </p>
             <p className="text-base mt-4">
               Contact me at <a className="text-blue-500 font-bold" href="mailto:brendancmechatronics@gmail.com">brendancmechatronics@gmail.com</a>.
