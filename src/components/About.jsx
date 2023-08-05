@@ -1,13 +1,29 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import gantrybackground from "../assets/gantrybackground.png";
 
 const About = () => {
+  useEffect(() => {
+    // Function to handle page resize
+    const handleResize = () => {
+      // Refresh the page when the window is resized
+      window.location.reload();
+    };
+
+    // Add event listener for the "resize" event
+    window.addEventListener("resize", handleResize);
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   window.scrollTo(0, 0);
   return (
     <div
-      className="bg-gray-900 text-white bg-cover bg-fixed bg-center pt-32 pb-20"
+      className="bg-gray-900 text-white bg-cover bg-fixed bg-center pt-32 pb-20 min-h-screen"
       style={{ backgroundImage: `url(${gantrybackground})` }}
     >
       <div className="container mx-auto px-6 sm:px-8">
