@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a9f21ec2.css",
-    "main.js": "/static/js/main.a8094749.js",
+    "main.css": "/static/css/main.3d3204a7.css",
+    "main.js": "/static/js/main.88ff2a58.js",
     "static/media/gantrymotion.mp4": "/static/media/gantrymotion.4cdac12aea2f627438e7.mp4",
     "static/media/toyotainnovation.mp4": "/static/media/toyotainnovation.5e1fc9993d3a2e81d73e.mp4",
     "static/media/crane.jpeg": "/static/media/crane.9a0314927bbc5401e972.jpeg",
@@ -32,11 +32,11 @@
     "static/media/Spec-car-data.png": "/static/media/Spec-car-data.2b693d1f764665643756.png",
     "static/media/CarEstimatorModel.png": "/static/media/CarEstimatorModel.0e71e77533202a25de8e.png",
     "index.html": "/index.html",
-    "main.a9f21ec2.css.map": "/static/css/main.a9f21ec2.css.map",
-    "main.a8094749.js.map": "/static/js/main.a8094749.js.map"
+    "main.3d3204a7.css.map": "/static/css/main.3d3204a7.css.map",
+    "main.88ff2a58.js.map": "/static/js/main.88ff2a58.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9f21ec2.css",
-    "static/js/main.a8094749.js"
+    "static/css/main.3d3204a7.css",
+    "static/js/main.88ff2a58.js"
   ]
 }
