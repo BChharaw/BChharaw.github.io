@@ -1,14 +1,16 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-router-dom";
 import robotbackground from "../assets/robotbackground.png";
 
 const Content = () => {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
   useEffect(() => {
     // Function to handle page resize
     const handleResize = () => {
-      // Refresh the page when the window is resized
-      window.location.reload();
+      // Update window width state
+      setWindowWidth(window.innerWidth);
     };
 
     // Add event listener for the "resize" event
@@ -20,6 +22,11 @@ const Content = () => {
     };
   }, []);
 
+  useEffect(() => {
+    // Scroll to the top of the page when window width changes
+    window.scrollTo(0, 0);
+  }, [windowWidth]);
+
   return (
     <div
       className="bg-gray-900 text-white bg-cover bg-fixed bg-center pt-32 pb-20 min-h-screen"
@@ -27,12 +34,17 @@ const Content = () => {
     >
       <div className="container mx-auto px-6 sm:px-8 flex flex-col justify-center h-full">
         <div className="max-w-3xl mx-auto text-center">
-          <p className="text-base sm:text-xl">Hi! I'm Brendan,</p>
-          <h1 className="text-4xl sm:text-6xl font-bold mt-4 blue-500">
-            I make ideas happen.
-          </h1>
+          <h1 className="text-2xl sm:text-5xl font-bold mt-4 blue-500">Hi! I make ideas happen.</h1>
           <p className="text-base sm:text-lg max-w-md mx-auto mt-6">
-            I'm currently working at <a target="_blank" className="text-blue-500 hover:underline " href="https://www.goodlabs.studio/">GoodLabs Studio</a> as a Machine Learning and Robotics Developer where I'm heading the AI development for Robbie (shown in background)!
+            I'm currently working at{" "}
+            <a
+              target="_blank"
+              className="text-blue-500 hover:underline "
+              href="https://www.goodlabs.studio/"
+            >
+              GoodLabs Studio
+            </a>{" "}
+            as a Machine Learning and Robotics Developer where I'm heading the AI development for Robbie (shown in background)!
           </p>
           <div className="mt-8 flex justify-center">
             <Link to="/about">
