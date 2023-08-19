@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.02e54e26.css",
-    "main.js": "/static/js/main.d6abf193.js",
+    "main.css": "/static/css/main.6db74bf7.css",
+    "main.js": "/static/js/main.0afda427.js",
     "static/media/gantrymotion.mp4": "/static/media/gantrymotion.4cdac12aea2f627438e7.mp4",
+    "static/media/rotationpose.gif": "/static/media/rotationpose.905ef45808e201de293f.gif",
     "static/media/toyotainnovation.mp4": "/static/media/toyotainnovation.5e1fc9993d3a2e81d73e.mp4",
     "static/media/crane.webp": "/static/media/crane.9a0314927bbc5401e972.webp",
     "static/media/cranemoving.MOV": "/static/media/cranemoving.c0c95d452daae5afe2ee.MOV",
@@ -21,10 +22,12 @@
     "static/media/speaker2image1.webp": "/static/media/speaker2image1.2190e6339331f3b68b6f.webp",
     "static/media/RL.webp": "/static/media/RL.4010e8de8251ebd9e2f6.webp",
     "static/media/3dpose.webp": "/static/media/3dpose.43d643297ccb212644d0.webp",
+    "static/media/dataset.webp": "/static/media/dataset.d033fcdc7f9e7873d68d.webp",
     "static/media/robot.webp": "/static/media/robot.f43af415c8b59be1dead.webp",
     "static/media/grid.webp": "/static/media/grid.f32eb4e34a23b7ad51e6.webp",
     "static/media/robbiesitting.webp": "/static/media/robbiesitting.45022996a5011a0d1a98.webp",
     "static/media/torqueoptimizer.webp": "/static/media/torqueoptimizer.136e065cb3cd5a6a0708.webp",
+    "static/media/robbieside.webp": "/static/media/robbieside.a082ba242e91ed46381a.webp",
     "static/media/robotbackground.webp": "/static/media/robotbackground.f808ea7056703feb1350.webp",
     "static/media/speaker1image1.webp": "/static/media/speaker1image1.f9b8f4de32d5d5e87382.webp",
     "static/media/goals-as-list.webp": "/static/media/goals-as-list.38e8e02d38276bd53974.webp",
@@ -33,11 +36,11 @@
     "static/media/CarEstimatorModel.webp": "/static/media/CarEstimatorModel.0e71e77533202a25de8e.webp",
     "static/media/comingsoon.webp": "/static/media/comingsoon.7b2a8e4031fc4e4c4c64.webp",
     "index.html": "/index.html",
-    "main.02e54e26.css.map": "/static/css/main.02e54e26.css.map",
-    "main.d6abf193.js.map": "/static/js/main.d6abf193.js.map"
+    "main.6db74bf7.css.map": "/static/css/main.6db74bf7.css.map",
+    "main.0afda427.js.map": "/static/js/main.0afda427.js.map"
   },
   "entrypoints": [
-    "static/css/main.02e54e26.css",
-    "static/js/main.d6abf193.js"
+    "static/css/main.6db74bf7.css",
+    "static/js/main.0afda427.js"
   ]
 }
