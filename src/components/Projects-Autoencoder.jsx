@@ -12,7 +12,7 @@ const AutoencoderDescription = () => {
       <div className="container mx-auto px-6 sm:px-8 flex flex-col justify-center h-full">
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-4xl sm:text-6xl font-bold mt-4">
-            Autoencoder Class for Latent Space Trajectory Analysis
+            Autoencoder Network for Dimentionality Reduction of Human Poses
           </p>
           <img className="max-w-full mx-auto rounded-2xl pt-2" src={latentspacegood} alt="latent space visualization" />
 
