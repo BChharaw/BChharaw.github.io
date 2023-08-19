@@ -3,6 +3,7 @@ import { HiArrowNarrowRight } from 'react-icons/hi';
 import robot from "../assets/robot.webp"
 import sitting from "../assets/robbiesitting.webp"
 import grid from "../assets/grid.webp"
+import side from "../assets/robbieside.webp"
 const ProjectsBipedal = () => {
   window.scrollTo(0, 0);
   return (
@@ -32,7 +33,12 @@ const ProjectsBipedal = () => {
             className="max-w-full mx-auto mt-8 rounded-2xl"
             src={sitting}
             alt="fully constructed robot"
-          /><br></br><br></br>Robbie is a cutting-edge humanoid robot designed to achieve natural walking and eventually aid in patient care for the elderly. Over the past couple of months, we have designed and built a 3-foot-tall humanoid, developed embedded software to make Robbie run, and we’re currently developing the reinforcement learning algorithm that will train Robbie to walk. <br></br>
+          /><br></br><br></br> Robbie is a cutting-edge humanoid robot designed to achieve natural walking and eventually aid in patient care for the elderly. Over the past couple of months, we have designed and built a 3-foot-tall humanoid, developed embedded software to make Robbie run, and we’re currently developing the reinforcement learning algorithm that will train Robbie to walk.<br></br><img
+          className="max-w-full mx-auto mt-8 rounded-2xl"
+          src={side}
+          alt="side of robot"
+        /><br></br>
+          Specifically, aboard this team, I designed the lower body walking mechanism from the feet to the just before the knees, along with the shock transfer plate between hip and torso, and the various component housings. I also wrote embedded code for Robbie such as gyroscope interpretation using a moving average filter, sensor analysis, PID loop tuning, alarm systems, and I/O displays. <br></br>
           <img
             className="max-w-full mx-auto mt-8 rounded-2xl"
             src={grid}

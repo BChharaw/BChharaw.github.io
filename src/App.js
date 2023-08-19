@@ -16,7 +16,7 @@ import BluetoothSpeakerProject2 from "./components/Project-Speaker2";
 import ProjectsBipedalRL from "./components/Projects-RLbipedal";
 import CarDesigner from "./components/Projects-CarDesigner";
 import Crane from "./components/Projects-Crane";
-
+import Dataset from "./components/Projects-DatasetGenerator";
 function App() {
   return (
       <div>
@@ -37,6 +37,8 @@ function App() {
           <Route path="/experience/bluetoothspeakerversion1" element={<BluetoothSpeakerProject />}></Route>
           <Route path="/experience/bluetoothspeakerversion2" element={<BluetoothSpeakerProject2 />}></Route>
           <Route path="/experience/crane" element={<Crane />}></Route>
+          <Route path="/experience/dataset_generator" element={<Dataset />}></Route>
+
 
         </Routes>
    

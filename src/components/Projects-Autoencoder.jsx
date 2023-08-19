@@ -4,7 +4,7 @@ import posepic from "../assets/3dpose.png";
 
 import { Link } from 'react-router-dom';
 
-const AdversarialAlgorithm = () => {
+const Autoencoder = () => {
   window.scrollTo(0, 0);
   return (
     <div className="bg-neutral-900 text-white bg-cover bg-fixed bg-center pt-32 pb-20">
@@ -47,4 +47,4 @@ const AdversarialAlgorithm = () => {
   );
 };
 
-export default AdversarialAlgorithm;
+export default Autoencoder;

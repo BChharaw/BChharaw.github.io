@@ -24,10 +24,10 @@ const AdversarialAlgorithm = () => {
             </a>, where I'm working as a Machine Learning and Robotics developer. 
           </p>
           <p className="text-base sm:text-lg max-w-md mx-auto mt-6">
-            As a part of our development aboard Team Robbie, <Link to="/experience/bipedal" className="text-blue-500 font-bold"> (check out part 1 here)</Link>, the cutting-edge humanoid robot required a walking algorithm. As a result, I designed an algorithm to accomplish this effectively, which will be the focus of a paper published in the coming year. In the meantime, here are some of the details:
+            As a part of our development aboard Team Robbie, <Link to="/experience/bipedal" className="text-blue-500 font-bold"> (check out part 1 here)</Link>, the cutting-edge humanoid robot required a walking algorithm. As a result, I designed an algorithm to accomplish this effectively, which will be the focus of a paper (hopefully) published in the coming year. In the meantime, here are some of the details:
           </p>
           <p className="text-base sm:text-lg max-w-md mx-auto mt-6">
-            Leveraging a human pose dataset, I convert 3D stick figures to a latent space with a VAE, enabling Robbie to learn human-like movements.
+            Leveraging a human pose dataset, we convert first convert videos to 3D stick figures which we embed into a latent space with an autoencoder network, enabling Robbie to learn human-like movements.
           </p>
           <img
             className="max-w-full mx-auto mt-8 rounded-2xl"
