@@ -17,6 +17,7 @@ import ProjectsBipedalRL from "./components/Projects-RLbipedal";
 import CarDesigner from "./components/Projects-CarDesigner";
 import Crane from "./components/Projects-Crane";
 import Dataset from "./components/Projects-DatasetGenerator";
+import AutoencoderDescription from "./components/Projects-Autoencoder";
 function App() {
   return (
       <div>
@@ -38,6 +39,7 @@ function App() {
           <Route path="/experience/bluetoothspeakerversion2" element={<BluetoothSpeakerProject2 />}></Route>
           <Route path="/experience/crane" element={<Crane />}></Route>
           <Route path="/experience/dataset_generator" element={<Dataset />}></Route>
+          <Route path="/experience/latent_space_trajectory_embedding" element={<AutoencoderDescription />}></Route>
 
 
         </Routes>

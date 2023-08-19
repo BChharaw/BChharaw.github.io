@@ -1,45 +1,37 @@
 import React from 'react';
-import RL from "../assets/RL.png";
-import posepic from "../assets/3dpose.png";
-
 import { Link } from 'react-router-dom';
+import latentspacegood from "../assets/latentspace.gif";
+import L1 from "../assets/L1.gif";
+import L2 from "../assets/L2.gif";
+import L3 from "../assets/L3.gif";
+import L4 from "../assets/L4.gif";
 
-const Autoencoder = () => {
-  window.scrollTo(0, 0);
+const AutoencoderDescription = () => {
   return (
     <div className="bg-neutral-900 text-white bg-cover bg-fixed bg-center pt-32 pb-20">
       <div className="container mx-auto px-6 sm:px-8 flex flex-col justify-center h-full">
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-4xl sm:text-6xl font-bold mt-4">
-            Adversarial Reinforcement Learning Algorithm for Humanoids
+            Autoencoder Class for Latent Space Trajectory Analysis
           </p>
-          <img
-            className="max-w-full mx-auto mt-8 rounded-2xl"
-            src={RL}
-            alt="Robbie Learning to Walk"
-          />
+          <img className="max-w-full mx-auto rounded-2xl pt-2" src={latentspacegood} alt="latent space visualization" />
+
           <p className="text-base sm:text-lg max-w-md mx-auto mt-6">
-            This algorithm is a versatile and robust pipeline for training bipedal robots, which I'm currently working on. This project is my second major undertaking at <a target="_blank" href="https://www.goodlabs.studio/" className="text-blue-500 font-bold">
-                 GoodLabs Studio
-            </a>, where I'm working as a Machine Learning and Robotics developer. 
+            I'm a Machine Learning and Robotics developer on Team Robbie at <a  className="text-blue-500" href="https://www.goodlabs.studio/" target="_blank">GoodLabs Studio</a> developing the machine learning framework that aim's to allow the bipedal robot we designed to walk. You can check out earlier work I've done with
+            <a  className="text-blue-500" href="https://bchharaw.github.io/#/experience/bipedal" target="_blank"> Part 1</a>,
+            <a  className="text-blue-500" href="https://bchharaw.github.io/#/experience/adversarial_humanoid_walking" target="_blank"> Part 2</a>,
+            <a  className="text-blue-500" href="https://bchharaw.github.io/#/experience/dataset_generator" target="_blank"> and Part 3</a>.
           </p>
           <p className="text-base sm:text-lg max-w-md mx-auto mt-6">
-            As a part of our development aboard Team Robbie, <Link to="/experience/bipedal" className="text-blue-500 font-bold"> (check out part 1 here)</Link>, the cutting-edge humanoid robot required a walking algorithm. As a result, I designed an algorithm to accomplish this effectively, which will be the focus of a paper published in the coming year. In the meantime, here are some of the details:
-          </p>
-          <p className="text-base sm:text-lg max-w-md mx-auto mt-6">
-            Leveraging a human pose dataset, I convert 3D stick figures to a latent space with a VAE, enabling Robbie to learn human-like movements.
-          </p>
-          <img
-            className="max-w-full mx-auto mt-8 rounded-2xl"
-            src={posepic}
-            alt="Robbie Learning to Walk"
-          />
-          <p className="text-base sm:text-lg max-w-md mx-auto mt-6">
-            Robbie's high-level policy then predicts movements based on latent space trajectories from 3D motion clips, while a low-level reinforcement learning policy takes in this information and is trained in Isaac Gym via rewards dictated by two discriminators.
-          </p>
-          <p className="text-base sm:text-lg max-w-md mx-auto mt-6">
-            Of these two discriminators, one identifies "fake poses," while the other enforces adherence to natural movement patterns.
-            <br /><br /> Expect more updates in the coming future as the algorithm is refined and further developed! In the meantime, perhaps check out <Link to="/experience/bipedal" className="text-blue-500 font-bold">part 1 here!</Link>
+            I developed an autoencoder network to perform dimensionality reduction of ~45000 3D human poses from a dataset we developed. This part was essential for our pipeline, as our trajectory state model needed a well mapped latent space. After experimenting with variation autoencoders, convolutional variational autoencoders, and regular autoencoders, I found that the best performance came from a regular autoencoder using dropout, tanh activation, and a vectorized data input.
+            <br></br><br></br>
+            Training the autoencoder on ~45000 poses from our dataset produced the latent space shown in the above gif at the top of the page. This result surpassed all previous attemps drastically, showing complex, symmetric shapes that indicate the model recognized similarities in walking and plotted them accurately in the latent space. 
+            <br></br><br></br>
+            You can learn more about what our dataset looked like <a  className="text-blue-500" href="https://bchharaw.github.io/#/experience/adversarial_humanoid_walking" target="_blank">here</a>. Here are some of the failed latent spaces (from worst to best) I developed which emphasize the difficultly of the task at hand:
+            <img className="max-w-full mx-auto rounded-2xl pt-2" src={L4} alt="latent space visualization" />
+            <img className="max-w-full mx-auto rounded-2xl pt-2" src={L3} alt="latent space visualization" />
+            <img className="max-w-full mx-auto rounded-2xl pt-2" src={L2} alt="latent space visualization" />
+            <img className="max-w-full mx-auto rounded-2xl pt-2" src={L1} alt="latent space visualization" />
           </p>
         </div>
       </div>
@@ -47,4 +39,4 @@ const Autoencoder = () => {
   );
 };
 
-export default Autoencoder;
+export default AutoencoderDescription;

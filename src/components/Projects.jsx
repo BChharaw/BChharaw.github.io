@@ -14,6 +14,7 @@ import speaker2image2 from "../assets/speaker2image2.webp"
 import crane from "../assets/crane.webp"
 import RL from "../assets/RL.webp"
 import dataset from "../assets/dataset.webp"
+import latentspace from "../assets/latentspace2.gif"
 const tailwindStyles = {
   projectCard:
   "relative overflow-hidden group transform-gpu duration-500 ease-in-out rounded-lg shadow-md",
@@ -48,6 +49,7 @@ const Projects = () => {
   return (
     <div className={tailwindStyles.container}>
       <div className={tailwindStyles.grid}>
+      <Link to="/experience/latent_space_trajectory_embedding">{projectCard(latentspace, "Autoencoder for Latent Space Trajectory Analysis", "(Python, TensorFlow, MatPlotLib, Numpy)")}</Link>
         <Link to="/experience/dataset_generator">{projectCard(dataset, "Library for Generating and Human Pose Datasets from Videos", "(Python, OpenCV, MatPlotLib, Numpy)")}</Link>
         <Link to="/experience/adversarial_humanoid_walking">{projectCard(RL, "Adversarial Reinforcement Learning Algorithm for Humanoids", "(Python, TensorFlow, and PyTorch)")}</Link>
         <Link to="/experience/bipedal">{projectCard(robot, "Bipedal Walking Robot", "(C++, Python, and Fusion360)")}</Link>
