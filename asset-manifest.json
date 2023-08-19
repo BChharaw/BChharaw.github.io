@@ -1,11 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.6db74bf7.css",
-    "main.js": "/static/js/main.0afda427.js",
+    "main.css": "/static/css/main.249a789b.css",
+    "main.js": "/static/js/main.37fdedee.js",
     "static/media/gantrymotion.mp4": "/static/media/gantrymotion.4cdac12aea2f627438e7.mp4",
+    "static/media/latentspace.gif": "/static/media/latentspace.5c24a68d62e5ee310f53.gif",
     "static/media/rotationpose.gif": "/static/media/rotationpose.905ef45808e201de293f.gif",
     "static/media/toyotainnovation.mp4": "/static/media/toyotainnovation.5e1fc9993d3a2e81d73e.mp4",
+    "static/media/latentspace2.gif": "/static/media/latentspace2.23c1425b512696863d6d.gif",
     "static/media/crane.webp": "/static/media/crane.9a0314927bbc5401e972.webp",
+    "static/media/L3.gif": "/static/media/L3.664c55b39b5ccdf5cdbc.gif",
+    "static/media/L2.gif": "/static/media/L2.92c4f3be5f7f0c22831f.gif",
+    "static/media/L4.gif": "/static/media/L4.31160db4232c075d9dae.gif",
+    "static/media/L1.gif": "/static/media/L1.cc04db78fbbe55b25473.gif",
     "static/media/cranemoving.MOV": "/static/media/cranemoving.c0c95d452daae5afe2ee.MOV",
     "static/media/speaker1image2.webp": "/static/media/speaker1image2.8b9604eee897ad3c8031.webp",
     "static/media/frontgantry.webp": "/static/media/frontgantry.c25acb82e8527e2e181f.webp",
@@ -36,11 +42,11 @@
     "static/media/CarEstimatorModel.webp": "/static/media/CarEstimatorModel.0e71e77533202a25de8e.webp",
     "static/media/comingsoon.webp": "/static/media/comingsoon.7b2a8e4031fc4e4c4c64.webp",
     "index.html": "/index.html",
-    "main.6db74bf7.css.map": "/static/css/main.6db74bf7.css.map",
-    "main.0afda427.js.map": "/static/js/main.0afda427.js.map"
+    "main.249a789b.css.map": "/static/css/main.249a789b.css.map",
+    "main.37fdedee.js.map": "/static/js/main.37fdedee.js.map"
   },
   "entrypoints": [
-    "static/css/main.6db74bf7.css",
-    "static/js/main.0afda427.js"
+    "static/css/main.249a789b.css",
+    "static/js/main.37fdedee.js"
   ]
 }
