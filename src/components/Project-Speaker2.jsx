@@ -23,9 +23,9 @@ const BluetoothSpeakerProject = () => {
             After having fun making my first bluetooth speaker I set out to make another with improvements over the first. Instead of jerry rigging an amplification circuit, I used a sound amplifying PCB, I used a better bluetooth module, a bigger battery, and most importantly a better speaker module. 
           </p>
 
-          <a href="www.example.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://drive.google.com/file/d/1HR9SodwSb5HQviZwyhfjB5PnNal1oF-9/view?usp=sharing" target="_blank" rel="noopener noreferrer">
             <button className="font-bold px-6 py-3 rounded-full bg-white text-gray-900 hover:bg-gray-700 hover:text-white duration-300 ease-in-out flex items-center mt-8 mx-auto">
-              (Link to come soon)
+              Listen to how it sounds
               <HiArrowNarrowRight className="ml-2" />
             </button>
           </a>
