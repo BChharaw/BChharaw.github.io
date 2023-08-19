@@ -1,181 +1,68 @@
 import React from "react";
-import MyGoal from "../assets/mygoalisimg.png";
-import UVCC from "../assets/outer-prototype.jpg";
+import { Link } from "react-router-dom";
+import MyGoal from "../assets/mygoalisimg.webp";
+import UVCC from "../assets/outer-prototype.webp";
 import Car from "../assets/car-tracking.gif";
 import Gantry from "../assets/keyboard-typer.gif";
-import TFLRestimator from "../assets/CarEstimatorModel.png";
-import { Link } from "react-router-dom";
-import comingsoon from "../assets/comingsoon.jpg";
-import torqueoptimizer from "../assets/torqueoptimizer.png";
-import robot from "../assets/robbie.jpg"
-import robotcad from "../assets/robot.png"
-import speaker1image1 from "../assets/speaker1image1.jpg"
-import speaker2image2 from "../assets/speaker2image2.jpg"
-import crane from "../assets/crane.jpeg"
-import RL from "../assets/RL.png"
-const Projects = () => {
-  window.scrollTo(0, 0);
-  return (
-    
-    <div className="bg-gray-900 min-h-screen py-20  bg-cover bg-fixed bg-center" style={{ backgroundImage: "url('/static/media/mte100background.f28e2f8c5901c4760f85.png')" }}>
-      
-      <div className="container mx-auto max-w-7xl px-4 grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-      <Link to="/experience/adversarial_humanoid_walking">
-          <div className="hover:bg-gray-700 transition duration-300 ease-in-out bg-gray-800 rounded-lg shadow-lg overflow-hidden">
-            <div
-              className="w-full h-56 bg-center bg-cover"
-              style={{ backgroundImage: `url(${RL})` }}
-              alt="underconstruction"
-            ></div>
-            <div className="p-4">
-              <h1 className="text-xl font-semibold text-white mb-2">Adversarial Reinforcement Learning Algorithm for Humanoids</h1>
-              <p className="text-gray-400 mb-4">(Python, TensorFlow, and PyTorch)</p>
-              
-            </div>
-          </div>
-        </Link>
-      <Link to="/experience/bipedal">
-          <div className="hover:bg-gray-700 transition duration-300 ease-in-out bg-gray-800 rounded-lg shadow-lg overflow-hidden">
-            <div
-              className="w-full h-56 bg-center bg-cover"
-              style={{ backgroundImage: `url(${robot})` }}
-              alt="underconstruction"
-            ></div>
-            <div className="p-4">
-              <h1 className="text-xl font-semibold text-white mb-2">Bipedal Walking Robot</h1>
-              <p className="text-gray-400 mb-4">(C++, Python, and Fusion360)</p>
-              
-            </div>
-          </div>
-        </Link>
-        <Link to="/experience/carvalueestimator">
-          <div className="hover:bg-gray-700 transition duration-300 ease-in-out bg-gray-800 rounded-lg shadow-lg overflow-hidden">
-            <div
-              className="w-full h-56 bg-center bg-cover"
-              style={{ backgroundImage: `url(${TFLRestimator})` }}
-              alt="demonstration of model working"
-            ></div>
-            <div className="p-4">
-              <h1 className="text-xl font-semibold text-white mb-2">AI Car Value Estimator</h1>
-              <p className="text-gray-400 mb-4">(TensorFlow in Python)</p>
-              
-            </div>
-          </div>
-        </Link>
-        <Link to="/experience/torqueoptimizer">
-          <div className="hover:bg-gray-700 transition duration-300 ease-in-out bg-gray-800 rounded-lg shadow-lg overflow-hidden">
-            <div
-              className="w-full h-56 bg-center bg-cover"
-              style={{ backgroundImage: `url(${torqueoptimizer})` }}
-              alt="underconstruction"
-            ></div>
-            <div className="p-4">
-              <h1 className="text-xl font-semibold text-white mb-2">Robotic Joint Optimizer</h1>
-              <p className="text-gray-400 mb-4">(C++)</p>
-              
-            </div>
-          </div>
-        </Link>
-        <Link to="/experience/2axisgantry">
-          <div className="hover:bg-gray-700 transition duration-300 ease-in-out bg-gray-800 rounded-lg shadow-lg overflow-hidden">
-            <div
-              className="w-full h-56 bg-center bg-cover"
-              style={{ backgroundImage: `url(${Gantry})` }}
-              alt="Final term design project UW MTE100"
-            ></div>
-            <div className="p-4">
-              <h1 className="text-xl font-semibold text-white mb-2">High Precision Gantry</h1>
-              <p className="text-gray-400 mb-4">(C with RobotC library)</p>
-           
-            </div>
-          </div>
-        </Link>
-        <Link to="/experience/cardetection">
-          <div className="hover:bg-gray-700 transition duration-300 ease-in-out bg-gray-800 rounded-lg shadow-lg overflow-hidden">
-            <div
-              className="w-full h-56 bg-center bg-cover"
-              style={{ backgroundImage: `url(${Car})` }}
-              alt="our project for the University of Waterloo Toyota Innovation Hackathon"
-            ></div>
-            <div className="p-4">
-              <h1 className="text-xl font-semibold text-white mb-2">Car Detection Algorithm</h1>
-              <p className="text-gray-400 mb-4">(Machine Vision in C++)</p>
-           
-            </div>
-          </div>
-        </Link>
-        <Link to="/experience/uvcclean">
-          <div className="hover:bg-gray-700 transition duration-300 ease-in-out bg-gray-800 rounded-lg shadow-lg overflow-hidden">
-            <div
-              className="w-full h-56 bg-center bg-cover"
-              style={{ backgroundImage: `url(${UVCC})` }}
-              alt="photo of the outer completed prototype"
-            ></div>
-            <div className="p-4">
-              <h1 className="text-xl font-semibold text-white mb-2">Water Disinfection System</h1>
-              <p className="text-gray-400 mb-4">(JS, HTML/CSS, and C++)</p>
-          
-            </div>
-          </div>
-        </Link>
-        <Link to="/experience/bluetoothspeakerversion2">
-          <div className="hover:bg-gray-700 transition duration-300 ease-in-out bg-gray-800 rounded-lg shadow-lg overflow-hidden">
-            <div
-              className="w-full h-56 bg-center bg-cover"
-              style={{ backgroundImage: `url(${speaker2image2})` }}
-              alt="cover photo for 'today my goal is project"
-            ></div>
-            <div className="p-4">
-              <h1 className="text-xl font-semibold text-white mb-2">Bluetooth Speaker (V.2)</h1>
-              <p className="text-gray-400 mb-4">(Circuits, Fusion360, 3D Printing)</p>
-            </div>
-          </div>
-        </Link>
-        <Link to="/experience/crane">
-          <div className="hover:bg-gray-700 transition duration-300 ease-in-out bg-gray-800 rounded-lg shadow-lg overflow-hidden">
-            <div
-              className="w-full h-56 bg-center bg-cover"
-              style={{ backgroundImage: `url(${crane})` }}
-              alt="cover photo for 'today my goal is project"
-            ></div>
-            <div className="p-4">
-              <h1 className="text-xl font-semibold text-white mb-2">RC Robotic Crane</h1>
-              <p className="text-gray-400 mb-4">(Tron Day Project)</p>
+import TFLRestimator from "../assets/CarEstimatorModel.webp";
+import comingsoon from "../assets/comingsoon.webp";
+import torqueoptimizer from "../assets/torqueoptimizer.webp";
+import robot from "../assets/robbie.webp"
+import robotcad from "../assets/robot.webp"
+import speaker1image1 from "../assets/speaker1image1.webp"
+import speaker2image2 from "../assets/speaker2image2.webp"
+import crane from "../assets/crane.webp"
+import RL from "../assets/RL.webp"
 
-        
-            </div>
-          </div>
-        </Link>
-        <Link to="/experience/goalfortheday">
-          <div className="hover:bg-gray-700 transition duration-300 ease-in-out bg-gray-800 rounded-lg shadow-lg overflow-hidden">
-            <div
-              className="w-full h-56 bg-center bg-cover"
-              style={{ backgroundImage: `url(${MyGoal})` }}
-              alt="cover photo for 'today my goal is project"
-            ></div>
-            <div className="p-4">
-              <h1 className="text-xl font-semibold text-white mb-2">Goal Tracker</h1>
-              <p className="text-gray-400 mb-4">(JavaScript and HTML/CSS)</p>
-        
-            </div>
-          </div>
-        </Link>
-        <Link to="/experience/bluetoothspeakerversion1">
-          <div className="hover:bg-gray-700 transition duration-300 ease-in-out bg-gray-800 rounded-lg shadow-lg overflow-hidden">
-            <div
-              className="w-full h-56 bg-center bg-cover"
-              style={{ backgroundImage: `url(${speaker1image1})` }}
-              alt="cover photo for 'today my goal is project"
-            ></div>
-            <div className="p-4">
-              <h1 className="text-xl font-semibold text-white mb-2">Bluetooth Speaker (V.1)</h1>
-              <p className="text-gray-400 mb-4">(Circuits, SolidWorks, 3D printing)</p>
-            </div>
-          </div>
-        </Link>
+const tailwindStyles = {
+  projectCard:
+  "relative overflow-hidden group transform-gpu duration-500 ease-in-out rounded-lg shadow-md",
+  image: "w-full h-72 bg-center bg-cover rounded-lg ",
+  title: "text-xl font-semibold text-white mb-2",
+  technologies: "mb-4 font-bold ",
+  overlayBox: "absolute inset-0 rounded-lg ",
+  textContainer: "absolute inset-0 p-4 flex flex-col justify-end",
+  container: "bg-neutral-900 min-h-screen py-20 bg-cover bg-fixed bg-center",
+  grid:
+    "container  mx-auto max-w-7xl px-4 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4",
+    infoBox: "absolute bottom-2 left-2 p-2 bg-black bg-opacity-90 text-white rounded-md",
+    hoverOverlay: "absolute inset-0 rounded-lg bg-black bg-opacity-0 transition-opacity duration-300 ease-in-out group-hover:bg-opacity-50",
+
+  };
+  
+  const projectCard = (image, title, technologies) => (
+    <div className={`${tailwindStyles.projectCard} relative rounded-lg shadow-md overflow-hidden group transform-gpu duration-500 ease-in-out hover:shadow-lg`}>
+  
+      <div className={`${tailwindStyles.image} w-full h-72 bg-center bg-cover relative`} style={{ backgroundImage: `url(${image})` }}>
+        <div className={tailwindStyles.hoverOverlay}></div> {/* New hover overlay */}
+        <div className={`${tailwindStyles.infoBox} w-2/3`}>
+          <h2 className="text-lg md:text-base lg:text-sm font-semibold">{title}</h2>
+          <p className="text-base md:text-sm lg:text-xs text-blue-400 mt-1">{technologies}</p>
+        </div>
       </div>
     </div>
   );
-};
+  
+const Projects = () => {
+  window.scrollTo(0, 0);
+  return (
+    <div className={tailwindStyles.container}>
+      <div className={tailwindStyles.grid}>
+       
+        <Link to="/experience/adversarial_humanoid_walking">{projectCard(RL, "Adversarial Reinforcement Learning Algorithm for Humanoids", "(Python, TensorFlow, and PyTorch)")}</Link>
+        <Link to="/experience/bipedal">{projectCard(robot, "Bipedal Walking Robot", "(C++, Python, and Fusion360)")}</Link>
+        <Link to="/experience/carvalueestimator">{projectCard(TFLRestimator, "AI Car Value Estimator", "(TensorFlow in Python)")}</Link>
+        <Link to="/experience/torqueoptimizer">{projectCard(torqueoptimizer, "Robotic Joint Optimizer", "(C++)")}</Link>
+        <Link to="/experience/2axisgantry">{projectCard(Gantry, "High Precision Gantry", "(C with RobotC library)")}</Link>
+        <Link to="/experience/cardetection">{projectCard(Car, "Car Detection Algorithm", "(Machine Vision in C++)")}</Link>
+        <Link to="/experience/uvcclean">{projectCard(UVCC, "Water Disinfection System", "(JS, HTML/CSS, and C++)")}</Link>
+        <Link to="/experience/bluetoothspeakerversion2">{projectCard(speaker2image2, "Bluetooth Speaker (V.2)", "(Circuits, Fusion360, 3D Printing)")}</Link>
+        <Link to="/experience/crane">{projectCard(crane, "RC Robotic Crane", "(Tron Day Project)")}</Link>
+        <Link to="/experience/goalfortheday">{projectCard(MyGoal, "Goal Tracker", "(JavaScript and HTML/CSS)")}</Link>
+        <Link to="/experience/bluetoothspeakerversion1">{projectCard(speaker1image1, "Bluetooth Speaker (V.1)", "(Circuits, SolidWorks, 3D printing)")}</Link>
+            </div>
+    </div>
+  );
+}
 
 export default Projects;

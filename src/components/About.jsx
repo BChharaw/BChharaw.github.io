@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import gantrybackground from "../assets/gantrybackground.png";
+import gantrybackground from "../assets/gantrybackground.webp";
 
 const About = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -29,7 +29,7 @@ const About = () => {
 
   return (
     <div
-      className="bg-gray-900 text-white bg-cover bg-fixed bg-center pt-32 pb-20 min-h-screen"
+      className="bg-neutral-900 text-white bg-cover bg-fixed bg-center pt-32 pb-20 min-h-screen"
       style={{ backgroundImage: `url(${gantrybackground})` }}
     >
       <div className="container mx-auto px-6 sm:px-8">
@@ -46,7 +46,7 @@ const About = () => {
             </p>
             <div className="mt-8 flex justify-center">
               <Link to="/experience">
-                <button className="font-bold px-6 py-3 rounded-full bg-white text-gray-900 hover:bg-gray-700 hover:text-white duration-300 ease-in-out flex items-center">
+                <button className="font-bold px-6 py-3 rounded-full bg-white text-gray-900 hover:bg-neutral-900 hover:text-white duration-300 ease-in-out flex items-center">
                   My Experience
                   <HiArrowNarrowRight className="ml-2" />
                 </button>

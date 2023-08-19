@@ -1,12 +1,12 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import cardetectioncode from '../assets/toyotainnovation.mp4';
-import conveyor from '../assets/conveyorsetup.jpg';
+import conveyor from '../assets/conveyorsetup.webp';
 
 const CarDetection = () => {
   window.scrollTo(0, 0);
   return (
-    <div className="bg-gray-900 text-white bg-cover bg-fixed bg-center pt-32 pb-20">
+    <div className="bg-neutral-900 text-white bg-cover bg-fixed bg-center pt-32 pb-20">
       <div className="container mx-auto px-6 sm:px-8 flex flex-col justify-center h-full">
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-4xl sm:text-6xl font-bold mt-4">
@@ -15,6 +15,11 @@ const CarDetection = () => {
           <p className="text-lg sm:text-2xl font-bold text-blue-500 mt-4">
             Machine Vision In C++
           </p>
+          <img
+            className="max-w-full mx-auto mt-8 rounded-2xl"
+            src={conveyor}
+            alt="conveyor setup used"
+          />
           <p className="text-base sm:text-lg max-w-md mx-auto mt-6">
             As a part of the Toyota Innovation Challenge Hackathon, three friends and I developed a real-time vehicle tracking system to track cars on a conveyor belt, addressing a real-world problem faced by the company.
           </p>
@@ -33,11 +38,7 @@ const CarDetection = () => {
               <HiArrowNarrowRight className="ml-2" />
             </button>
           </a>
-          <img
-            className="max-w-full mx-auto mt-8 rounded-2xl"
-            src={conveyor}
-            alt="conveyor setup used"
-          />
+
         </div>
       </div>
     </div>

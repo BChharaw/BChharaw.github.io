@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-router-dom";
-import robotbackground from "../assets/robotbackground.png";
+import robotbackground from "../assets/robotbackground.webp";
 
 const Content = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -29,31 +29,29 @@ const Content = () => {
 
   return (
     <div
-      className="bg-gray-900 text-white bg-cover bg-fixed bg-center pt-32 pb-20 min-h-screen"
+      className="bg-neutral-900 text-white bg-cover bg-fixed bg-center pt-32 pb-20 min-h-screen flex justify-center items-center"
       style={{ backgroundImage: `url(${robotbackground})` }}
     >
-      <div className="container mx-auto px-6 sm:px-8 flex flex-col justify-center h-full">
-        <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-2xl sm:text-5xl font-bold mt-4 blue-500">Hi! I make ideas happen.</h1>
-          <p className="text-base sm:text-lg max-w-md mx-auto mt-6">
-            I'm currently working at{" "}
-            <a
-              target="_blank"
-              className="text-blue-500 hover:underline "
-              href="https://www.goodlabs.studio/"
-            >
-              GoodLabs Studio
-            </a>{" "}
-            as a Machine Learning and Robotics Developer where I'm heading the AI development for Robbie (shown in background)!
-          </p>
-          <div className="mt-8 flex justify-center">
-            <Link to="/about">
-              <button className="font-bold px-6 py-3 rounded-full bg-white text-gray-900 hover:bg-gray-700 hover:text-white duration-300 ease-in-out flex items-center">
-                About me!
-                <HiArrowNarrowRight className="ml-2" />
-              </button>
-            </Link>
-          </div>
+      <div className="max-w-3xl mx-auto text-center">
+        <h1 className="text-5xl p-2 font-bold mt-4 text-white">Hi! I make ideas happen.</h1>
+        <p className="text-lg max-w-md mx-auto mt-6">
+          I'm currently working at{" "}
+          <a
+            target="_blank"
+            className="text-blue-500 hover:underline "
+            href="https://www.goodlabs.studio/"
+          >
+            GoodLabs Studio
+          </a>{" "}
+          as a Machine Learning and Robotics Developer where I'm heading the AI development for Robbie (shown in background)!
+        </p>
+        <div className="mt-8 flex justify-center">
+          <Link to="/about">
+            <button className="font-bold px-6 py-3 rounded-full bg-white text-gray-900 hover:bg-neutral-900 hover:text-white duration-300 ease-in-out flex items-center">
+              About me!
+              <HiArrowNarrowRight className="ml-2" />
+            </button>
+          </Link>
         </div>
       </div>
     </div>

@@ -1,11 +1,11 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
-import speaker1image2 from '../assets/speaker1image2.PNG';
+import speaker1image2 from '../assets/speaker1image2.webp';
 
 const BluetoothSpeakerProject = () => {
   window.scrollTo(0, 0);
   return (
-    <div className="bg-gray-900 text-white bg-cover bg-fixed bg-center pt-32 pb-20">
+    <div className="bg-neutral-900 text-white bg-cover bg-fixed bg-center pt-32 pb-20">
       <div className="container mx-auto px-6 sm:px-8 flex flex-col justify-center h-full">
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-4xl sm:text-6xl font-bold mt-4">
@@ -14,14 +14,15 @@ const BluetoothSpeakerProject = () => {
           <p className="text-lg sm:text-2xl font-bold text-blue-500 mt-4">
             (Because I was bored)
           </p>
-          <p className="text-base sm:text-lg max-w-md mx-auto mt-6">
-            This is a DIY bluetooth speaker I built from random parts lying around. Using a bluetooth recieiver, a simple signal amplification circuit with an op amp, a shield circuit for a lithium ion battery 3.7V (for safe charging and discharging), and speaker modules I tore out of an broken laptop from 2007 I designed a bluetooth speaker. 
-          </p>
           <img
             className="max-w-full mx-auto mt-8 rounded-2xl"
             src={speaker1image2}
             alt="picture of built speaker, it has dual speakers for stereo"
           />
+          <p className="text-base sm:text-lg max-w-md mx-auto mt-6">
+            This is a DIY bluetooth speaker I built from random parts lying around. Using a bluetooth recieiver, a simple signal amplification circuit with an op amp, a shield circuit for a lithium ion battery 3.7V (for safe charging and discharging), and speaker modules I tore out of an broken laptop from 2007 I designed a bluetooth speaker. 
+          </p>
+
           <a href="https://drive.google.com/file/d/1UJn1_mlDJh7KRgchUkCvpnsx2lXTTpMn/view?usp=sharing" target="_blank" rel="noopener noreferrer">
             <button className="font-bold px-6 py-3 rounded-full bg-white text-gray-900 hover:bg-gray-700 hover:text-white duration-300 ease-in-out flex items-center mt-8 mx-auto">
               Link to video of it working

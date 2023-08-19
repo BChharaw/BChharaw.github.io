@@ -1,6 +1,6 @@
 import React from 'react';
-import RL from "../assets/RL.webp";
-import posepic from "../assets/3dpose.webp";
+import RL from "../assets/RL.png";
+import posepic from "../assets/3dpose.png";
 
 import { Link } from 'react-router-dom';
 

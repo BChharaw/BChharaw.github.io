@@ -1,11 +1,11 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
-import speaker2image1 from '../assets/speaker2image1.jpg';
+import speaker2image1 from '../assets/speaker2image1.webp';
 
 const BluetoothSpeakerProject = () => {
   window.scrollTo(0, 0);
   return (
-    <div className="bg-gray-900 text-white bg-cover bg-fixed bg-center pt-32 pb-20">
+    <div className="bg-neutral-900 text-white bg-cover bg-fixed bg-center pt-32 pb-20">
       <div className="container mx-auto px-6 sm:px-8 flex flex-col justify-center h-full">
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-4xl sm:text-6xl font-bold mt-4">
@@ -14,14 +14,15 @@ const BluetoothSpeakerProject = () => {
           <p className="text-lg sm:text-2xl font-bold text-blue-500 mt-4">
             (A second model with better sound quality and battery life)
           </p>
-          <p className="text-base sm:text-lg max-w-md mx-auto mt-6">
-            After having fun making my first bluetooth speaker I set out to make another with improvements over the first. Instead of jerry rigging an amplification circuit, I used a sound amplifying PCB, I used a better bluetooth module, a bigger battery, and most importantly a better speaker module. 
-          </p>
           <img
-            className="max-w-full mx-auto mt-8 rounded-2xl"
+            className="max-w-full mx-auto mt-2 rounded-2xl"
             src={speaker2image1}
             alt="picture of built speaker, it has dual speakers for stereo"
           />
+          <p className="text-base sm:text-lg max-w-md mx-auto mt-6">
+            After having fun making my first bluetooth speaker I set out to make another with improvements over the first. Instead of jerry rigging an amplification circuit, I used a sound amplifying PCB, I used a better bluetooth module, a bigger battery, and most importantly a better speaker module. 
+          </p>
+
           <a href="www.example.com" target="_blank" rel="noopener noreferrer">
             <button className="font-bold px-6 py-3 rounded-full bg-white text-gray-900 hover:bg-gray-700 hover:text-white duration-300 ease-in-out flex items-center mt-8 mx-auto">
               (Link to come soon)

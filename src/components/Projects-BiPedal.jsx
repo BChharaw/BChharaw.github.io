@@ -1,12 +1,12 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
-import robot from "../assets/robot.png"
-import sitting from "../assets/robbiesitting.jpg"
-import grid from "../assets/grid.jpg"
+import robot from "../assets/robot.webp"
+import sitting from "../assets/robbiesitting.webp"
+import grid from "../assets/grid.webp"
 const ProjectsBipedal = () => {
   window.scrollTo(0, 0);
   return (
-    <div className="bg-gray-900 text-white bg-cover bg-fixed bg-center pt-32 pb-20">
+    <div className="bg-neutral-900 text-white bg-cover bg-fixed bg-center pt-32 pb-20">
       <div className="container mx-auto px-6 sm:px-8 flex flex-col justify-center h-full">
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-4xl sm:text-6xl font-bold mt-4">
