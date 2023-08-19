@@ -34,7 +34,7 @@ const Content = () => {
     >
       <div className="max-w-3xl mx-auto text-center">
         <h1 className="text-5xl p-2 font-bold mt-4 text-white">Hi! I make ideas happen.</h1>
-        <p className="text-lg max-w-md mx-auto mt-6">
+        <p className="text-lg p-2 max-w-md mx-auto mt-6">
           I'm currently working at{" "}
           <a
             target="_blank"
