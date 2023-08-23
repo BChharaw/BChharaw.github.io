@@ -1,5 +1,4 @@
 import React from 'react';
-import { HiArrowNarrowRight } from 'react-icons/hi';
 import robot from "../assets/robot.webp"
 import sitting from "../assets/robbiesitting.webp"
 import grid from "../assets/grid.webp"

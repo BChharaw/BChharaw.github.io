@@ -8,7 +8,6 @@ import ProjectsUVC from "./components/Projects-UVCclean";
 import ProjectsCarDetection from "./components/Projects-CarDetection";
 import ProjectsGantry from "./components/Projects-Gantry";
 import ProjectsEstimator from "./components/Projects-Estimator";
-import { FadeIn } from 'react-fade-in';
 import ProjectsTorqueOptimizer from "./components/Projects-Torque";
 import ProjectsBipedal from "./components/Projects-BiPedal";
 import BluetoothSpeakerProject from "./components/Projects-Speaker1";

@@ -1,5 +1,4 @@
 import React from 'react';
-import { HiArrowNarrowRight } from 'react-icons/hi';
 import Typewriter from 'typewriter-effect';
 import craneImage from '../assets/crane.webp';
 import craneMoving from "../assets/cranemoving.MOV"

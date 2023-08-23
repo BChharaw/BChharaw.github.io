@@ -5,10 +5,8 @@ import UVCC from "../assets/outer-prototype.webp";
 import Car from "../assets/car-tracking.gif";
 import Gantry from "../assets/keyboard-typer.gif";
 import TFLRestimator from "../assets/CarEstimatorModel.webp";
-import comingsoon from "../assets/comingsoon.webp";
 import torqueoptimizer from "../assets/torqueoptimizer.webp";
 import robot from "../assets/robbie.webp"
-import robotcad from "../assets/robot.webp"
 import speaker1image1 from "../assets/speaker1image1.webp"
 import speaker2image2 from "../assets/speaker2image2.webp"
 import crane from "../assets/crane.webp"

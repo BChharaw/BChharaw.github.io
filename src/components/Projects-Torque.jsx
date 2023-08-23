@@ -1,7 +1,5 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
-import estimator from '../assets/CarEstimatorModel.webp';
-import specs from '../assets/Spec-car-data.webp';
 import torque from "../assets/torqueoptimizer.webp"
 const ProjectsTorque = () => {
   window.scrollTo(0, 0);
