@@ -22,7 +22,7 @@ const AutoencoderDescription = () => {
             <a  className="text-blue-500" href="https://bchharaw.github.io/#/experience/dataset_generator" target="_blank"> and Part 3</a>.
           </p>
           <p className="text-base sm:text-lg max-w-md mx-auto mt-6">
-            I developed an autoencoder network to perform dimensionality reduction of ~45000 3D human poses from a dataset we developed. This part was essential for our pipeline, as our trajectory state model needed a well mapped latent space. After experimenting with variational autoencoders, convolutional variational autoencoders, and regular autoencoders, I found that the best performance came from a regular autoencoder using dropout, tanh activation, and a vectorized data input.
+            I developed an autoencoder network to perform dimensionality reduction of ~45000 3D human poses from a dataset we developed. This part was essential for our pipeline, as our trajectory state model needed a well mapped latent space. After experimenting with variational autoencoders, convolutional variational autoencoders, and regular autoencoders, I found that the best performance came from a regular autoencoder using dropout, adaptive learning rate using ADAM, tanh activation, and a vectorized data input.
             <br></br><br></br>
             Training the autoencoder on ~45000 poses from our dataset produced the latent space shown in the above gif at the top of the page. This result surpassed all previous attemps drastically, showing complex, symmetric shapes that indicate the model recognized similarities in walking and plotted them accurately in the latent space. 
             <br></br><br></br>
