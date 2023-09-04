@@ -1,7 +1,7 @@
-import React from 'react';
-import Typewriter from 'typewriter-effect';
-import craneImage from '../assets/crane.webp';
-import craneMoving from "../assets/cranemoving.MOV"
+import React from "react";
+import Typewriter from "typewriter-effect";
+import craneImage from "../assets/crane.webp";
+import craneMoving from "../assets/cranemoving.MOV";
 const CraneProject = () => {
   window.scrollTo(0, 0);
   return (
@@ -15,18 +15,28 @@ const CraneProject = () => {
             <div className="h-16">
               <Typewriter
                 options={{
-                  strings: ['Remote-Controlled Crane for Tron Day'],
+                  strings: ["Remote-Controlled Crane for Tron Day"],
                   autoStart: true,
                   loop: true,
-                  cursor: '',
+                  cursor: "",
                 }}
               />
             </div>
           </p>
-          <img className="max-w-full mx-auto rounded-2xl" src={craneImage} alt="RC Crane Project" />
+          <img
+            className="max-w-full mx-auto rounded-2xl"
+            src={craneImage}
+            alt="RC Crane Project"
+          />
 
           <p className="text-base sm:text-lg max-w-md mx-auto mt-6">
-            During our 1A at the University of Waterloo, my classmates Michelle, Melissa, Connor, and I participated in the Tron Day project. We designed and built a remote-controlled crane capable of precise movements with lifting hard-to-carry objects (such as those with smooth surfaces, odd contours, small surface areas). The crane's control system design allowed it a high degree of manuvreability, placing our group in the top 15% of the competition. 
+            During our 1A at the University of Waterloo, my classmates Michelle,
+            Melissa, Connor, and I participated in the Tron Day project. We
+            designed and built a remote-controlled crane capable of precise
+            movements with lifting hard-to-carry objects (such as those with
+            smooth surfaces, odd contours, small surface areas). The crane's
+            control system design allowed it a high degree of manuvreability,
+            placing our group in the top 15% of the competition.
           </p>
           <div className="mt-8 mx-auto max-w-lg">
             <video className="w-full p-[5px] rounded-2xl" controls>
@@ -34,7 +44,9 @@ const CraneProject = () => {
             </video>
           </div>
           <p className="text-base sm:text-lg max-w-md mx-auto mt-6">
-            Above is a video of our robot handing over a screwdriver to another robot. (I know this isn't the best video of our project but its the only in focus one we could find easily)
+            Above is a video of our robot handing over a screwdriver to another
+            robot. (I know this isn't the best video of our project but its the
+            only in focus one we could find easily)
           </p>
         </div>
       </div>

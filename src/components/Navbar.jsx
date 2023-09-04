@@ -24,7 +24,7 @@ const Navbar = () => {
     <nav className={tailwindStyles.navbar}>
       <div className="flex items-center">
         <Link to="/">
-          <h1 className={tailwindStyles.logo}>Brendan C</h1>
+          <h1 className={tailwindStyles.logo}>Brendan Chharawala</h1>
         </Link>
       </div>
 
