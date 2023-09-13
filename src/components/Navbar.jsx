@@ -55,7 +55,7 @@ const Navbar = () => {
         </li>
       </ul>
 
-      <div onClick={handleClick} className={tailwindStyles.mobileNavButton}>
+      <div  onClick={handleClick} className={tailwindStyles.mobileNavButton}>
         {!navigation ? <FaBars className="text-2xl" /> : <FaTimes className="text-2xl" />}
       </div>
 

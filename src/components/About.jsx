@@ -29,21 +29,25 @@ const About = () => {
 
   return (
     <div
-      className="bg-neutral-900 text-white bg-cover bg-fixed bg-center pt-32 pb-20 min-h-screen"
+      className="bg-neutral-900 text-white bg-cover bg-fixed bg-center pt-32 pb-20 min-h-screen flex justify-center items-center"
       style={{ backgroundImage: `url(${gantrybackground})` }}
     >
       <div className="container mx-auto px-6 sm:px-8">
         <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-4xl sm:text-6xl font-bold mt-5">
-            About Me
-          </h1>
+          <h1 className="text-4xl sm:text-6xl font-bold mt-5">About Me</h1>
           <div className="max-w-md mx-auto mt-6">
             <p className="text-base">
-              I'm Brendan Chharawala, a Mechatronics Engineering student from the University of Waterloo. <br /><br />My main expertise lies in machine learning and computer vision development using Python and libraries such as TensorFlow, PyTorch, OpenCV, and Isaac Gym. I have also delved into embedded development with C/C++, front-end technologies like React, JavaScript, HTML/CSS, and CAD design using Fusion360, SolidWorks, and AutoCAD.
+              I'm Brendan Chharawala, a Mechatronics Engineering student from
+              the University of Waterloo. <br />
+              <br />
+              My main expertise lies in machine learning and computer vision
+              development using Python and libraries such as TensorFlow,
+              PyTorch, OpenCV, and Isaac Gym. I have also dabled with embedded
+              development in C/C++, with front-end technologies like React,
+              JavaScript, HTML/CSS, and CAD design using Fusion360, SolidWorks,
+              and AutoCAD.
             </p>
-            <p className="text-base mt-4">
-              Contact me at <a className="text-blue-500 font-bold" href="mailto:brendancmechatronics@gmail.com">brendancmechatronics@gmail.com</a>.
-            </p>
+
             <div className="mt-8 flex justify-center">
               <Link to="/experience">
                 <button className="font-bold px-6 py-3 rounded-full bg-white text-gray-900 hover:bg-neutral-900 hover:text-white duration-300 ease-in-out flex items-center">
@@ -52,6 +56,17 @@ const About = () => {
                 </button>
               </Link>
             </div>
+            <br></br><br></br>
+            <p className="text-base mt-4">
+              Contact me at{" "}
+              <a
+                className="text-blue-500 font-bold"
+                href="mailto:brendancmechatronics@gmail.com"
+              >
+                brendancmechatronics@gmail.com
+              </a>
+              
+            </p>
           </div>
         </div>
       </div>
