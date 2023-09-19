@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.37876f6f.css",
-    "main.js": "/static/js/main.178a96c6.js",
+    "main.css": "/static/css/main.0238e208.css",
+    "main.js": "/static/js/main.19375d16.js",
     "static/media/gantrymotion.mp4": "/static/media/gantrymotion.4cdac12aea2f627438e7.mp4",
     "static/media/latentspace.gif": "/static/media/latentspace.5c24a68d62e5ee310f53.gif",
     "static/media/rotationpose.gif": "/static/media/rotationpose.905ef45808e201de293f.gif",
@@ -23,6 +23,7 @@
     "static/media/flowing-water.webp": "/static/media/flowing-water.0aba935bef909c9d0335.webp",
     "static/media/outer-prototype.webp": "/static/media/outer-prototype.d5cb6de17df658e6043b.webp",
     "static/media/uv-light-on.webp": "/static/media/uv-light-on.07e91f26cde66ed2a59c.webp",
+    "static/media/codeexplain2.webp": "/static/media/codeexplain2.05bf0c8c0426d399f879.webp",
     "static/media/gantrybackground.webp": "/static/media/gantrybackground.04d523cbbb772f56c423.webp",
     "static/media/speaker2image2.webp": "/static/media/speaker2image2.cc3b9f85219282c90553.webp",
     "static/media/speaker2image1.webp": "/static/media/speaker2image1.2190e6339331f3b68b6f.webp",
@@ -41,11 +42,11 @@
     "static/media/Spec-car-data.webp": "/static/media/Spec-car-data.2b693d1f764665643756.webp",
     "static/media/CarEstimatorModel.webp": "/static/media/CarEstimatorModel.0e71e77533202a25de8e.webp",
     "index.html": "/index.html",
-    "main.37876f6f.css.map": "/static/css/main.37876f6f.css.map",
-    "main.178a96c6.js.map": "/static/js/main.178a96c6.js.map"
+    "main.0238e208.css.map": "/static/css/main.0238e208.css.map",
+    "main.19375d16.js.map": "/static/js/main.19375d16.js.map"
   },
   "entrypoints": [
-    "static/css/main.37876f6f.css",
-    "static/js/main.178a96c6.js"
+    "static/css/main.0238e208.css",
+    "static/js/main.19375d16.js"
   ]
 }
