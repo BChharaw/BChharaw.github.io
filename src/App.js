@@ -17,6 +17,7 @@ import CarDesigner from "./components/Projects-CarDesigner";
 import Crane from "./components/Projects-Crane";
 import Dataset from "./components/Projects-DatasetGenerator";
 import AutoencoderDescription from "./components/Projects-Autoencoder";
+import Explainer from "./components/Projects-Explain";
 function App() {
   return (
     <div>
@@ -71,6 +72,10 @@ function App() {
         <Route
           path="/experience/latent_space_trajectory_embedding"
           element={<AutoencoderDescription />}
+        ></Route>
+        <Route
+          path="/experience/gptcodeexplainer"
+          element={<Explainer />}
         ></Route>
       </Routes>
     </div>

@@ -13,6 +13,7 @@ import crane from "../assets/crane.webp"
 import RL from "../assets/RL.webp"
 import dataset from "../assets/dataset.webp"
 import latentspace from "../assets/latentspace2.gif"
+import explain from "../assets/codeexplain2.webp"
 const tailwindStyles = {
   projectCard:
   "relative overflow-hidden group transform-gpu duration-500 ease-in-out rounded-lg shadow-md",
@@ -47,20 +48,94 @@ const Projects = () => {
   return (
     <div className={tailwindStyles.container}>
       <div className={tailwindStyles.grid}>
-      <Link to="/experience/latent_space_trajectory_embedding">{projectCard(latentspace, "Autoencoder Network for Dimentionality Reduction of Human Poses", "(Python, TensorFlow, MatPlotLib, Numpy)")}</Link>
-        <Link to="/experience/dataset_generator">{projectCard(dataset, "Library for Generating and Human Pose Datasets from Videos", "(Python, OpenCV, MatPlotLib, Numpy)")}</Link>
-        <Link to="/experience/adversarial_humanoid_walking">{projectCard(RL, "Adversarial Reinforcement Learning Algorithm for Humanoids", "(Python, TensorFlow, and PyTorch)")}</Link>
-        <Link to="/experience/bipedal">{projectCard(robot, "Bipedal Walking Robot", "(C++, Python, and Fusion360)")}</Link>
-        <Link to="/experience/carvalueestimator">{projectCard(TFLRestimator, "AI Car Value Estimator", "(TensorFlow in Python)")}</Link>
-        <Link to="/experience/torqueoptimizer">{projectCard(torqueoptimizer, "Robotic Joint Optimizer", "(C++)")}</Link>
-        <Link to="/experience/2axisgantry">{projectCard(Gantry, "High Precision Gantry", "(C with RobotC library)")}</Link>
-        <Link to="/experience/cardetection">{projectCard(Car, "Car Detection Algorithm", "(Machine Vision in C++)")}</Link>
-        <Link to="/experience/uvcclean">{projectCard(UVCC, "Water Disinfection System", "(JS, HTML/CSS, and C++)")}</Link>
-        <Link to="/experience/bluetoothspeakerversion2">{projectCard(speaker2image2, "Bluetooth Speaker (V.2)", "(Circuits, Fusion360, 3D Printing)")}</Link>
-        <Link to="/experience/crane">{projectCard(crane, "RC Robotic Crane", "(Tron Day Project)")}</Link>
-        <Link to="/experience/goalfortheday">{projectCard(MyGoal, "Goal Tracker", "(JavaScript and HTML/CSS)")}</Link>
-        <Link to="/experience/bluetoothspeakerversion1">{projectCard(speaker1image1, "Bluetooth Speaker (V.1)", "(Circuits, SolidWorks, 3D printing)")}</Link>
-            </div>
+        <Link to="/experience/latent_space_trajectory_embedding">
+          {projectCard(
+            latentspace,
+            "Autoencoder Network for Dimentionality Reduction of Human Poses",
+            "(Python, TensorFlow, MatPlotLib, Numpy)"
+          )}
+        </Link>
+        <Link to="/experience/dataset_generator">
+          {projectCard(
+            dataset,
+            "Library for Generating and Human Pose Datasets from Videos",
+            "(Python, OpenCV, MatPlotLib, Numpy)"
+          )}
+        </Link>
+        <Link to="/experience/adversarial_humanoid_walking">
+          {projectCard(
+            RL,
+            "Adversarial Reinforcement Learning Algorithm for Humanoids",
+            "(Python, TensorFlow, and PyTorch)"
+          )}
+        </Link>
+        <Link to="/experience/bipedal">
+          {projectCard(
+            robot,
+            "Bipedal Walking Robot",
+            "(C++, Python, and Fusion360)"
+          )}
+        </Link>
+
+        <Link to="/experience/carvalueestimator">
+          {projectCard(
+            TFLRestimator,
+            "Regression Car Value Estimator",
+            "(TensorFlow in Python)"
+          )}
+        </Link>
+        <Link to="/experience/torqueoptimizer">
+          {projectCard(torqueoptimizer, "Robotic Joint Optimizer", "(C++)")}
+        </Link>
+        <Link to="/experience/2axisgantry">
+          {projectCard(
+            Gantry,
+            "High Precision Gantry",
+            "(C with RobotC library)"
+          )}
+        </Link>
+        <Link to="/experience/cardetection">
+          {projectCard(
+            Car,
+            "Car Detection Algorithm",
+            "(Machine Vision in C++)"
+          )}
+        </Link>
+        <Link to="/experience/uvcclean">
+          {projectCard(
+            UVCC,
+            "Water Disinfection System",
+            "(JS, HTML/CSS, and C++)"
+          )}
+        </Link>
+        <Link to="/experience/bluetoothspeakerversion2">
+          {projectCard(
+            speaker2image2,
+            "Bluetooth Speaker (V.2)",
+            "(Circuits, Fusion360, 3D Printing)"
+          )}
+        </Link>
+        <Link to="/experience/crane">
+          {projectCard(crane, "RC Robotic Crane", "(Tron Day Project)")}
+        </Link>
+        <Link to="/experience/goalfortheday">
+          {projectCard(MyGoal, "Goal Tracker", "(JavaScript and HTML/CSS)")}
+        </Link>
+        <Link to="/experience/bluetoothspeakerversion1">
+          {projectCard(
+            speaker1image1,
+            "Bluetooth Speaker (V.1)",
+            "(Circuits, SolidWorks, 3D printing)"
+          )}
+        </Link>
+        <Link to="/experience/gptcodeexplainer">
+          {projectCard(
+            explain,
+            "GPT Code Explainer (in progress!)",
+            "(OpenAI Rest API, Prompt Engineering, React)"
+          )}
+        </Link>
+      </div>
     </div>
   );
 }
