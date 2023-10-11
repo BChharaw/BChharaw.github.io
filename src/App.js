@@ -26,6 +26,8 @@ function App() {
         <Route path="/" element={<Content />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/experience" element={<Projects />}></Route>
+        <Route path="/projects" element={<Projects />}></Route>
+
         <Route
           path="/experience/goalfortheday"
           element={<ProjectsGoal />}
@@ -77,6 +79,57 @@ function App() {
           path="/experience/gptcodeexplainer"
           element={<Explainer />}
         ></Route>
+         <Route
+          path="/projects/goalfortheday"
+          element={<ProjectsGoal />}
+        ></Route>
+        <Route path="/projects/uvcclean" element={<ProjectsUVC />}></Route>
+        <Route
+          path="/projects/cardetection"
+          element={<ProjectsCarDetection />}
+        ></Route>
+        <Route
+          path="/projects/2axisgantry"
+          element={<ProjectsGantry />}
+        ></Route>
+        <Route
+          path="/projects/carvalueestimator"
+          element={<ProjectsEstimator />}
+        ></Route>
+        <Route
+          path="/projects/AI_car_designer"
+          element={<CarDesigner />}
+        ></Route>
+        <Route
+          path="/projects/torqueoptimizer"
+          element={<ProjectsTorqueOptimizer />}
+        ></Route>
+        <Route path="/projects/bipedal" element={<ProjectsBipedal />}></Route>
+        <Route
+          path="/projects/adversarial_humanoid_walking"
+          element={<ProjectsBipedalRL />}
+        ></Route>
+        <Route
+          path="/projects/bluetoothspeakerversion1"
+          element={<BluetoothSpeakerProject />}
+        ></Route>
+        <Route
+          path="/projects/bluetoothspeakerversion2"
+          element={<BluetoothSpeakerProject2 />}
+        ></Route>
+        <Route path="/projects/crane" element={<Crane />}></Route>
+        <Route
+          path="/projects/dataset_generator"
+          element={<Dataset />}
+        ></Route>
+        <Route
+          path="/projects/latent_space_trajectory_embedding"
+          element={<AutoencoderDescription />}
+        ></Route>
+        <Route
+          path="/projects/gptcodeexplainer"
+          element={<Explainer />}        ></Route>
+
       </Routes>
     </div>
   );
