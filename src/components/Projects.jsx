@@ -14,31 +14,34 @@ import RL from "../assets/RL.webp"
 import dataset from "../assets/dataset.webp"
 import latentspace from "../assets/latentspace2.gif"
 import explain from "../assets/codeexplain2.webp"
+import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
+
+
 const tailwindStyles = {
   projectCard:
   "relative overflow-hidden group transform-gpu duration-500 ease-in-out rounded-lg shadow-md",
-  image: "w-full h-72 bg-center bg-cover rounded-lg ",
   title: "text-xl font-semibold text-white mb-2",
   technologies: "mb-4 font-bold ",
   overlayBox: "absolute inset-0 rounded-lg ",
   textContainer: "absolute inset-0 p-4 flex flex-col justify-end",
-  container: "bg-neutral-900 min-h-screen py-20 bg-cover bg-fixed bg-center",
-  grid:
-    "container  mx-auto max-w-7xl px-4 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4",
+  container: "bg-neutral-900 min-h-screen py-20 bg-cover bg-fixed bg-center p-3",
+  // grid:
+  //   "container  mx-auto max-w-7xl px-4 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4",
     infoBox: "absolute bottom-2 left-2 p-2 bg-black bg-opacity-90 text-white rounded-md",
-    hoverOverlay: "absolute inset-0 rounded-lg bg-black bg-opacity-0 transition-opacity duration-300 ease-in-out group-hover:bg-opacity-50",
+    hoverOverlay: "absolute inset-0 rounded-lg bg-black bg-opacity-0 transition-opacity duration-500 ease-in-out group-hover:bg-opacity-50",
 
   };
   
   const projectCard = (image, title, technologies) => (
-    <div className={`${tailwindStyles.projectCard} relative rounded-lg shadow-md overflow-hidden group transform-gpu duration-500 ease-in-out hover:shadow-lg`}>
+    <div className={`${tailwindStyles.projectCard} relative rounded-lg shadow-md overflow-hidden group transform-gpu duration-500 ease-in-out hover:shadow-lg p-1 m-2`}>
   
-      <div className={`${tailwindStyles.image} w-full h-72 bg-center bg-cover relative`} style={{ backgroundImage: `url(${image})` }}>
-        <div className={tailwindStyles.hoverOverlay}></div> {/* New hover overlay */}
-        <div className={`${tailwindStyles.infoBox} w-2/3`}>
+        <img src={image} className="w-full bg-center bg-cover rounded-lg"></img>
+
+        <div className={tailwindStyles.hoverOverlay}></div>
+        <div className={`${tailwindStyles.infoBox} w-2/3 m-2`}>
           <h2 className="text-lg md:text-base lg:text-sm font-semibold">{title}</h2>
           <p className="text-base md:text-sm lg:text-xs text-blue-400 mt-1">{technologies}</p>
-        </div>
+        
       </div>
     </div>
   );
@@ -46,8 +49,10 @@ const tailwindStyles = {
 const Projects = () => {
   window.scrollTo(0, 0);
   return (
+
     <div className={tailwindStyles.container}>
-      <div className={tailwindStyles.grid}>
+    <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 900: 2, 1200: 3}}>
+          <Masonry>
         <Link to="/experience/latent_space_trajectory_embedding">
           {projectCard(
             latentspace,
@@ -135,9 +140,11 @@ const Projects = () => {
             "(OpenAI Rest API, Prompt Engineering, React)"
           )}
         </Link>
+    </Masonry>
+      </ResponsiveMasonry>
+
       </div>
-    </div>
   );
 }
 
-export default Projects;
+export default Projects
