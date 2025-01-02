@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9a515624.css",
-    "main.js": "/static/js/main.a76982b6.js",
+    "main.js": "/static/js/main.6c1e5d2c.js",
     "static/media/gantrymotion.mp4": "/static/media/gantrymotion.4cdac12aea2f627438e7.mp4",
     "static/media/latentspace.gif": "/static/media/latentspace.5c24a68d62e5ee310f53.gif",
     "static/media/rotationpose.gif": "/static/media/rotationpose.905ef45808e201de293f.gif",
@@ -16,7 +16,6 @@
     "static/media/speaker1image2.webp": "/static/media/speaker1image2.8b9604eee897ad3c8031.webp",
     "static/media/frontgantry.webp": "/static/media/frontgantry.c25acb82e8527e2e181f.webp",
     "static/media/keyboard-typer.gif": "/static/media/keyboard-typer.8a3ca474abf7360e91a3.gif",
-    "static/media/robbie.webp": "/static/media/robbie.b00251d6aa28e3e8cf16.webp",
     "static/media/car-tracking.gif": "/static/media/car-tracking.0749a36206c3bb8e941d.gif",
     "static/media/conveyorsetup.webp": "/static/media/conveyorsetup.0904ddc03390527ca599.webp",
     "static/media/in-tank.webp": "/static/media/in-tank.7498c200085f7e9a2ae4.webp",
@@ -30,7 +29,6 @@
     "static/media/RL.webp": "/static/media/RL.4010e8de8251ebd9e2f6.webp",
     "static/media/3dpose.webp": "/static/media/3dpose.43d643297ccb212644d0.webp",
     "static/media/dataset.webp": "/static/media/dataset.d033fcdc7f9e7873d68d.webp",
-    "static/media/robot.webp": "/static/media/robot.f43af415c8b59be1dead.webp",
     "static/media/grid.webp": "/static/media/grid.f32eb4e34a23b7ad51e6.webp",
     "static/media/robbiesitting.webp": "/static/media/robbiesitting.45022996a5011a0d1a98.webp",
     "static/media/torqueoptimizer.webp": "/static/media/torqueoptimizer.136e065cb3cd5a6a0708.webp",
@@ -39,14 +37,15 @@
     "static/media/speaker1image1.webp": "/static/media/speaker1image1.f9b8f4de32d5d5e87382.webp",
     "static/media/goals-as-list.webp": "/static/media/goals-as-list.38e8e02d38276bd53974.webp",
     "static/media/mygoalisimg.webp": "/static/media/mygoalisimg.2e7b397517e8951c6138.webp",
+    "static/media/kde.jpg": "/static/media/kde.3832884caca74c4cbe8d.jpg",
     "static/media/Spec-car-data.webp": "/static/media/Spec-car-data.2b693d1f764665643756.webp",
     "static/media/CarEstimatorModel.webp": "/static/media/CarEstimatorModel.0e71e77533202a25de8e.webp",
     "index.html": "/index.html",
     "main.9a515624.css.map": "/static/css/main.9a515624.css.map",
-    "main.a76982b6.js.map": "/static/js/main.a76982b6.js.map"
+    "main.6c1e5d2c.js.map": "/static/js/main.6c1e5d2c.js.map"
   },
   "entrypoints": [
     "static/css/main.9a515624.css",
-    "static/js/main.a76982b6.js"
+    "static/js/main.6c1e5d2c.js"
   ]
 }
