@@ -1,8 +1,7 @@
 import React from 'react';
-import robot from "../assets/robot.webp"
-import sitting from "../assets/robbiesitting.webp"
-import grid from "../assets/grid.webp"
-import side from "../assets/robbieside.webp"
+import robot from "../assets/robbiesitting.webp";
+import grid from "../assets/grid.webp";
+import side from "../assets/robbieside.webp";
 const ProjectsBipedal = () => {
   window.scrollTo(0, 0);
   return (
@@ -28,11 +27,7 @@ const ProjectsBipedal = () => {
             </a> and <a target="_blank" href="https://www.linkedin.com/in/ethan-hemeon-119bb3269/" className="text-blue-500">
                 Ethan Hemeon
             </a>. 
-            <img
-            className="max-w-full mx-auto mt-8 rounded-2xl"
-            src={sitting}
-            alt="fully constructed robot"
-          /><br></br><br></br> Robbie is a cutting-edge humanoid robot designed to achieve natural walking and eventually aid in patient care for the elderly. Over the past couple of months, we have designed and built a 3-foot-tall humanoid, developed embedded software to make Robbie run, and we’re currently developing the reinforcement learning algorithm that will train Robbie to walk.<br></br><img
+           <br></br><br></br> Robbie is a cutting-edge humanoid robot designed to achieve natural walking and eventually aid in patient care for the elderly. Over the past couple of months, we have designed and built a 3-foot-tall humanoid, developed embedded software to make Robbie run, and we’re currently developing the reinforcement learning algorithm that will train Robbie to walk.<br></br><img
           className="max-w-full mx-auto mt-8 rounded-2xl"
           src={side}
           alt="side of robot"

@@ -6,7 +6,7 @@ import Car from "../assets/car-tracking.gif";
 import Gantry from "../assets/keyboard-typer.gif";
 import TFLRestimator from "../assets/CarEstimatorModel.webp";
 import torqueoptimizer from "../assets/torqueoptimizer.webp";
-import robot from "../assets/robbie.webp"
+import robot_sitting from "../assets/robbiesitting.webp"
 import speaker1image1 from "../assets/speaker1image1.webp"
 import speaker2image2 from "../assets/speaker2image2.webp"
 import crane from "../assets/crane.webp"
@@ -15,6 +15,7 @@ import dataset from "../assets/dataset.webp"
 import latentspace from "../assets/latentspace2.gif"
 import explain from "../assets/codeexplain2.webp"
 import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
+import kde from "../assets/kde.jpg"
 
 
 const tailwindStyles = {
@@ -53,6 +54,13 @@ const Projects = () => {
     <div className={tailwindStyles.container}>
     <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 900: 2, 1200: 3}}>
           <Masonry>
+          <Link to="/experience/KDE_latent_space_analysis">
+          {projectCard(
+            kde,
+            "Kernel Density Estimates for Latent Space Analysis",
+            "(Python, TensorFlow, MatPlotLib, Numpy)"
+          )}
+        </Link>
         <Link to="/experience/latent_space_trajectory_embedding">
           {projectCard(
             latentspace,
@@ -76,7 +84,7 @@ const Projects = () => {
         </Link>
         <Link to="/experience/bipedal">
           {projectCard(
-            robot,
+            robot_sitting,
             "Bipedal Walking Robot",
             "(C++, Python, and Fusion360)"
           )}

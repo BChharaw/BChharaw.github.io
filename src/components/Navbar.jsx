@@ -44,7 +44,7 @@ const Navbar = () => {
           </a>
         </li>
         <li>
-          <a href="mailto:brendancmechatronics@gmail.com" target="_blank" rel="noopener noreferrer" className={tailwindStyles.navIcon}>
+          <a href="mailto:bchharaw@gmail.com" target="_blank" rel="noopener noreferrer" className={tailwindStyles.navIcon}>
             <FaEnvelope className="inline-block text-xl" />
           </a>
         </li>
@@ -75,7 +75,7 @@ const Navbar = () => {
           <a href="https://www.linkedin.com/in/brendancmechatronics" target="_blank" rel="noopener noreferrer" onClick={handleClick} className={tailwindStyles.mobileNavIcon}>
             <FaLinkedin className="inline-block text-3xl" />
           </a>
-          <a href="mailto:brendancmechatronics@gmail.com" target="_blank" rel="noopener noreferrer" onClick={handleClick} className={tailwindStyles.mobileNavIcon}>
+          <a href="mailto:bchharaw@gmail.com" target="_blank" rel="noopener noreferrer" onClick={handleClick} className={tailwindStyles.mobileNavIcon}>
             <FaEnvelope className="inline-block text-3xl" />
           </a>
           <a href="https://github.com/BChharaw" target="_blank" rel="noopener noreferrer" onClick={handleClick} className={tailwindStyles.mobileNavIcon}>
